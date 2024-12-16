@@ -1,0 +1,75 @@
+﻿[b]This is a QOL (Quality of Life) RPG-like mod which Displays the Boss's title and subtitle with a nice typing and explosion animation and sound effects when spawning a boss.[/b]
+
+Supports all bosses for the following:
+[*] Vanilla
+[*] Thorium
+[*] Fargos's Souls
+[*] Calamity
+[*] Calamity Catalyst
+[*] Calamity Noxus Boss
+[*] Aequus
+[*] Awful Garbage Mod
+[*] Stars Above
+[*] Consolaria
+[*] Spirit Mod
+[*] Polarities
+[*] Spooky Mod
+[*] The Depths
+[*] Blue Sky Ore Mod
+[*] Metroid
+[*] Everglow
+[*] Homeward Journey
+[*] Secret of the Shadows
+[*] Vitality
+
+🛈 You can still play with unsupported mods but they won't have an intro.
+
+
+Join our discord for simillar QOL mods: https://discord.gg/te6MPuWbtD
+
+[b]1.4.4 Changelog[/b]
+
+[*] [b]v2.3[/b]
+- Added support for The Depths
+
+[*] [b]v2.2[/b]
+- Added support for Awful Garbage Mod
+
+[*] [b]v2.1[/b]
+- Added support for Consolaria
+
+[*] [b]v2.0[/b]
+- Ported to 1.4.4
+
+[b]1.4.3 Changelog[/b]
+
+[*] [b]v1.8[/b]
+- Added support for Metroid and Everglow
+
+[*] [b]v1.7[/b]
+- Added support for Blue Sky Ore Mod
+
+[*] [b]v1.6[/b]
+- Added support for Spooky Mod
+
+[*] [b]v1.5[/b]
+- Added support for Polarities
+
+[*] [b]v1.4[/b]
+- Added support for Calamity Catalyst and Spirit
+
+[*] [b]v1.3[/b]
+- Added support for Consolaria
+
+[*] [b]v1.2[/b]
+- Added support for Calamity Noxus Boss, Aequus and Stars Above
+- Added the config to disable the intro for certain bosses
+
+[*] [b]v1.1[/b]
+- Added support for Calamity and Fargo's Souls
+
+[*] [b]v1.0[/b]
+- Released
+
+[*] You can find my other mod here: [b]Biome Titles[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2992680615
