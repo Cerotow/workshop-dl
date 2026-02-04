@@ -1,0 +1,72 @@
+﻿using Terraria;
+using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
+using ArtificerMod.Content.Items.Others;
+using Terraria.ID;
+using ArtificerMod.Content.Glowmasks;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria.Localization;
+using ArtificerMod.Common;
+using System.Collections.Generic;
+
+namespace ArtificerMod.Content.Items.ArmorH
+{
+	[AutoloadEquip(EquipType.Legs)]
+	public class XenoLeggings : ModItem
+	{
+		public static int IncreasedDmg = 3;
+		public static int IncreasedCritChance = 5;
+		public static int IncreasedMovementSpeed = 8;
+ 		public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs(IncreasedDmg, IncreasedCritChance, IncreasedMovementSpeed);
+
+		public override void SetStaticDefaults() {
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+
+			if (!Main.dedServ)
+			{
+				LegsLayer.RegisterData(Item.legSlot, new DrawLayerData()
+				{
+					Texture = ModContent.Request<Texture2D>("ArtificerMod/Content/Glowmasks/ArmorH/XenoLeggings_Blank"),
+					ExtraTextureShield = ModContent.Request<Texture2D>("ArtificerMod/Content/Glowmasks/ArmorH/XenoLeggings_Shield")
+				});
+			}
+		}
+
+		public override void SetDefaults()
+		{
+			Item.width = 16;
+			Item.height = 16; 
+			Item.value = Item.buyPrice(0, 20, 0, 0); 
+			Item.rare = ItemRarityID.Yellow;
+			Item.defense = 14; 
+		}
+
+		public override void UpdateEquip(Player player)
+		{
+			player.GetDamage(DamageClass.Generic) += 0.03f;
+			player.GetCritChance(DamageClass.Generic) += 5f;
+			player.moveSpeed += 0.08f;
+
+            CrossModHelper.CaptureTrailLength(0.05f, player);
+        }
+
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            List<string> crossmodTips = new List<string>();
+            if (ModLoader.TryGetMod("CaptureDiscClass", out Mod _))
+            {
+                crossmodTips.Add(CrossModHelper.GetCrossmodText("CaptureClass.IncTrailLength", 5));
+            }
+            CrossModHelper.MultiaddTooltips(ref tooltips, Mod, crossmodTips);
+        }
+
+        public override void AddRecipes()
+		{
+			CreateRecipe()
+				.AddIngredient<MartianScrap>(4)
+				.AddIngredient(ItemID.MartianConduitPlating, 50)
+				.AddTile(TileID.MythrilAnvil)
+				.Register();
+		}
+	}
+}

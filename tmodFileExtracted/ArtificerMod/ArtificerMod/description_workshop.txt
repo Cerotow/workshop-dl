@@ -1,0 +1,52 @@
+[h1]Artificer's Accessories[/h1]
+
+Artificer's Accessories is a content mod that adds in many new accessories (Over 100!) as well as a new class to the game. 
+
+[h2]Introducing: The Artificer[/h2]
+[list]
+    [*]This class is designed as a 'neutral' class; its boosts are generic and even-split between the other classes
+    [*]To make the class unique, Artificers have low raw power, but their set bonuses grant extra accessory slots!
+    [*]Utilize these extra slots to maximize your build-play and flexibility
+    [*]Furthermore, Artificers also specialize in a new type of accessory added by this mod...
+[/list]
+
+[h2]Meet the Ability Accessories[/h2]
+[list]
+    [*]Many of the new accessories in this mod are special 'Ability Accessories'
+    [*]Most lack the passive effects you'd expect of an accessory
+    [*]Instead, they can trigger powerful special effects with the press of a hotkey
+    [*]Rapidly restore life! Shoot giant lasers! Rocket jump! These are just a few possibilities
+    [*]To balance their power, Ability Accessories share a cooldown that dictates the frequency of their use
+    [*]Artificers get the most out of these accessories, as Artificer set bonuses disable a universal cooldown penalty, and some even decrease the time further!
+[/list]
+
+[h2]Other additions[/h2]
+[list]
+    [*]The new class and ability accessories is nice and all, but don't forget that Artificer's Accessories still has something for everyone; there are still many accessories added by this mod don't have ability mechanics and are thus open for all classes and players to enjoy and experiment with.
+    [*]Also, this mod introduces alternative ways to obtain some commonly-used accessories, such as Hermes Boots, the Shiny Red Balloon, and more!
+    [*]A few config options for mostly client-side effects
+	[*][b]Cross-Mod: This mod has a Call functions that allow for other mods to add their own ability-related content. See the pinned discussion thread ('Cross-Mod & Mod.Call Guide') for more information![/b]
+[/list]
+
+[h3]Open Source[/h3]
+[list]
+    [*]This mod is open-source under the GNU GPLv3 license. In short, you’re allowed to view and utilize code from the source if you’d like, but if you want to publish any work you did with it, that project will have to use the same license (GNU GPLv3). The mod's LICENSE file contains the full details of terms and conditions, etc.
+	[*]You can access the source-code using tML's extract function (Found in-game on the mod's More Info page in your Mods List).
+[/list]
+
+[h3]Localization[/h3]
+This mod inherently supports the English language, though I am unable to provide any other languages since that's the only one I'm fluent in. However, localization contributions on GitHub are welcomed and appreciated. Below is a list of supported languages so far:
+[list]
+    [*]English (Base)
+	[*]Simplified Chinese (Contributed by [b]Urgiv[/b])
+[/list]
+If you desire to contribute localization, please make a PR in the [url=https://github.com/BlockCrusader/tML-Mods]GitHub repository for my mods' .tmod files[/url].
+
+[h3]Add-ons[/h3]
+This mod has offical add-on(s) that you can optionally use alongside it for an enhanced/expanded experience; see below for link(s).
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3180413694]Artificer: Post-Game Add-On[/url]: Adds new, post-ML tiers of Artificer content that allow the class to be more viably played with other mods with post-ML content.
+	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3266450631]Artificer's Mario Badges[/url]: Introduces Badges from [i]Paper Mario[/i] (N64), and [i]The Thousand-Year Door[/i] to Terraria in the form of accessories and Artificer content. As a bonus, it also includes badges from [i]Super Mario Bros. Wonder[/i], battle plugs from [i]Mario & Luigi: Brothership[/i], and many other extra goodies!
+[/list]
+
+[b]Please first read the pinned discussion 'FAQ Thread: Compatibility, Known Issues/Bug Reports, Roadmap & More' if you have any questions![/b]

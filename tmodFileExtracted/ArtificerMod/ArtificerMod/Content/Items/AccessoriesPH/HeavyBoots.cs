@@ -1,0 +1,60 @@
+using Terraria;
+using Terraria.GameContent.Creative;
+using Terraria.ModLoader;
+using Terraria.ID;
+using ArtificerMod.Common;
+
+namespace ArtificerMod.Content.Items.AccessoriesPH
+{
+	[AutoloadEquip(EquipType.Shoes)]
+	public class HeavyBoots : ModItem
+	{
+		public override void SetStaticDefaults()
+		{
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+		}
+
+		public override void SetDefaults()
+		{
+			Item.width = 16;
+			Item.height = 16;
+			Item.accessory = true;
+			Item.rare = ItemRarityID.Blue;
+			Item.value = Item.buyPrice(0, 5, 0, 0);
+		}
+
+		public override bool CanAccessoryBeEquippedWith(Item equippedItem, Item incomingItem, Player player)
+		{
+			if (equippedItem.type == ModContent.ItemType<DynamicBoots>() || equippedItem.type == ModContent.ItemType<PowerBoots>())
+			{
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+		}
+
+		public override void UpdateAccessory(Player player, bool hideVisual)
+		{
+            if (!player.mount.Active && !player.PortalPhysicsEnabled)
+            {
+                player.maxFallSpeed *= 1.6f;
+            }
+            player.GetModPlayer<ArtificerPlayer>().heavyShoes = true;
+			player.extraFall += 15;
+			player.moveSpeed -= 0.1f;
+		}
+
+		public override void AddRecipes()
+		{
+			CreateRecipe()
+				.AddIngredient(ItemID.Silk, 15)
+				.AddRecipeGroup("ArtificerMod:MetalBars2", 10)
+                .AddRecipeGroup("ArtificerMod:MetalBarsEvil", 5)
+                .AddRecipeGroup("Sand", 100)
+				.AddTile(TileID.Loom)
+				.Register();
+		}
+	}
+}

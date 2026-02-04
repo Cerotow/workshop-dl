@@ -1,0 +1,70 @@
+﻿using Terraria;
+using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
+using Microsoft.Xna.Framework;
+using ArtificerMod.Content.Items.Others;
+using Terraria.ID;
+using ArtificerMod.Content.Glowmasks;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria.Localization;
+using ArtificerMod.Common;
+using System.Collections.Generic;
+
+namespace ArtificerMod.Content.Items.ArmorH
+{
+	[AutoloadEquip(EquipType.Legs)]
+	public class AstralGreavesG : ModItem
+	{
+		public static int IncreasedMaxMana = 20;
+		public static int IncreasedDmgCritChance = 4;
+		public static int IncreasedMovementSpeed = 12;
+ 		public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs(IncreasedMaxMana, IncreasedDmgCritChance, IncreasedMovementSpeed);
+
+		public override void SetStaticDefaults() {
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+
+			LegsLayer.RegisterData(Item.legSlot, new DrawLayerData()
+			{
+				Texture = ModContent.Request<Texture2D>("ArtificerMod/Content/Glowmasks/ArmorH/AstralGreavesG_Glow")
+			});
+
+            ItemID.Sets.ShimmerTransformToItem[ModContent.ItemType<AstralGreaves>()] = Type;
+            ItemID.Sets.ShimmerTransformToItem[Type] = ModContent.ItemType<AstralGreaves>();
+        }
+
+		public override void SetDefaults()
+		{
+			Item.width = 16;
+			Item.height = 16; 
+			Item.value = Item.buyPrice(0, 52, 50, 0);
+			Item.rare = ItemRarityID.Red;
+			Item.defense = 14;
+		}
+
+		public override void UpdateEquip(Player player)
+		{
+			player.GetDamage(DamageClass.Generic) += 0.04f;
+			player.GetCritChance(DamageClass.Generic) += 4f;
+			player.statManaMax2 += 20;
+            player.ThrownVelocity += 0.1f;
+            player.moveSpeed += 0.12f;
+
+            CrossModHelper.ClickerBonusAdd(player, 1);
+        }
+
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            List<string> crossmodTips = new List<string>();
+            if (ModLoader.TryGetMod("ClickerClass", out Mod _))
+            {
+                crossmodTips.Add(CrossModHelper.GetCrossmodText("Clicker.CheaperEffect", 1));
+            }
+            CrossModHelper.MultiaddTooltips(ref tooltips, Mod, crossmodTips);
+        }
+
+        public override Color? GetAlpha(Color lightColor)
+		{
+			return new Color(255, 255, 255, 255);
+		}
+	}
+}
