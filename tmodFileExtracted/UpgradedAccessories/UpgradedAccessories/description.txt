@@ -1,0 +1,53 @@
+Upgraded Accessories adds several new accessories that combines existing accessories and/or has entirely new effect. Every expert item has its upgrade with thematically similar effect.
+It also includes healer and bard class accessories for thorium mod and rouge class support for thrower accessory.
+
+[i:75]Lunar Ninja Boots :
+   "Equipped with portable quantum tunneling device"
+   Being wet or at low health grants lunatic speed boost
+[i:75]Vengeance :
+   "Moon's haunted" "What?" "Moon's haunted"
+   Summons exploding moons and beesiles when hurt
+[i:75]True Shield of Cthulhu :
+   "You have to face danger head-on"
+   Not fleeing from a danger drastically reduces damage taken from it
+   Grants moderate chance to reflect projectiles
+[i:75]Space Suit :
+   "F = GMm/r^2"
+   Grants alternating buffs on landing and taking off
+[i:75]Intimidation :
+   "...!"
+   You will ignore any enemy or projectile deemed not worthy of your respect
+   Nearby enemies are terrified of your mere presence
+[i:75]Guass Pack :
+   "lrr r lr rrlr rrlr"
+   Allows fast hovering at the cost of dealing no damage
+[i:75]Exoskeleton :
+   "Deadly lasers"
+   Automatically shoots deadly lasers to nearby enemies
+   Moving fast will drastically increase laser damage and range
+[i:75]Solar Flare Glove :
+   "WARNING INCOMING SOLAR FLARE ATTACK"
+   Taking damage releases a super nova flare that pulls enemies in then explodes dealing massive damage
+[i:75]Vortex Scope :
+   "It's just applied aerodynamics"
+   Summons 2 vortex arrows that will chase down and damage enemies
+[i:75]Nebula Flower :
+   "Yer a wizard, [Player Name Here]!"
+   Dealing magic damage will summon nebula boosters that grant magic damage buff
+   It will also drop hearts and stars
+   Picking up heart/star will grant health/mana regen buff
+[i:75]Stardust Scroll :
+   "You and what army?"
+   Grants a shield that scales with your minion abilities
+   Summons a guardian that protects you
+[i:75]Final Delivery :
+   "It fitz, but the spirits like to throw tantrums"
+   Throwing/rogue hits periodically summon a helping hand that claps the enemy
+[i:75]Celestial Child :
+   "Emergency protocol activated"
+   An aura that buffs your allies follows your cursor
+   Fast healing bolts that heals life and mana for 4 will periodically emerge from you, 1 for each ally
+[i:75]Shooting Star Overdrive System :
+   "...and his music was electric."
+   Hitting enemies with symphonic damage will periodically summon a grog barrel
+   It will explode and buff any ally including you after dealing enough symphonic damage
