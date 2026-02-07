@@ -40,14 +40,18 @@ jobs:
 
       - name: Move downloaded files
         run: |
+          DEST_DIR=./downloaded/content/$APP_ID/$ENTRY_ID
+          mkdir -p "$DEST_DIR"
+
           WORKSHOP_PATH=~/.steam/steam/steamapps/workshop/content/$APP_ID/$ENTRY_ID
           if [ -d "$WORKSHOP_PATH" ]; then
-            cp -r "$WORKSHOP_PATH"/* ./downloaded/
-            echo "Files copied to ./downloaded/"
+            cp -r "$WORKSHOP_PATH"/* "$DEST_DIR"/
+            echo "Files copied to $DEST_DIR"
           else
             echo "No files found at $WORKSHOP_PATH"
           fi
-          ls -lar ./downloaded/
+
+          ls -lar "$DEST_DIR"
         shell: bash
 
       - name: Commit downloaded files
