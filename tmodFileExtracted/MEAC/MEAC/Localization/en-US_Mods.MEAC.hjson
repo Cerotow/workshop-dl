@@ -1,0 +1,460 @@
+Projectiles: {
+	TitanSmash.DisplayName: Titan Smash
+	OrichalcumDashing.DisplayName: Orichalcum Dashing
+	TNightEye.DisplayName: T Night Eye
+	TNightBeam.DisplayName: T Night Beam
+	NightSlash.DisplayName: Night Slash
+	NightsDashing.DisplayName: Nights Dashing
+	LightBane.DisplayName: Light Bane
+	IchorProjFriendly.DisplayName: Ichor Proj Friendly
+	IchorProj.DisplayName: Ichor Proj
+	IceProj.DisplayName: Ice Proj
+	GungnirShoot.DisplayName: Gungnir Shoot
+	Flamarang.DisplayName: Flamarang
+	FireFlowerProj.DisplayName: Fire Flower Proj
+	ExcaliburProj.DisplayName: Excalibur Proj
+	Excalibur.DisplayName: Excalibur
+	DSproj.DisplayName: D Sproj
+	CrimsonBeam.DisplayName: Crimson Beam
+	ChargeProj.DisplayName: Charge Proj
+	AdamBeam.DisplayName: Adam Beam
+	TestWave.DisplayName: Test Wave
+	ExampleProj.DisplayName: Example Proj
+	StarCannonShoot.DisplayName: Star Cannon Shoot
+	StarCannonAim.DisplayName: Star Cannon Aim
+	SmashDamageProj.DisplayName: Smash Damage Proj
+	SerenadeMinion.DisplayName: Serenade Minion
+	Serenade_Melee.DisplayName: Serenade_ Melee
+	TitanFinalProj.DisplayName: Titan Final Proj
+	TitanAimline.DisplayName: Titan Aimline
+	ThunderSpear_Sub.DisplayName: Thunder Spear_ Sub
+	ThunderSpear.DisplayName: Thunder Spear
+	Thunder_Friendly.DisplayName: Thunder_ Friendly
+	PersTest.DisplayName: Pers Test
+	LightningProj.DisplayName: Lightning Proj
+	GungnirDashing.DisplayName: Gungnir Dashing
+	Gungnir.DisplayName: Gungnir
+	GrassDashing.DisplayName: Grass Dashing
+	FireProj.DisplayName: Fire Proj
+	DreamStar_FallenStar.DisplayName: Dream Star_ Fallen Star
+	DarkLanceProj.DisplayName: Dark Lance Proj
+	DarkLance.DisplayName: Dark Lance
+	CrystalProj.DisplayName: Crystal Proj
+	Bubble.DisplayName: Bubble
+	BloodProj.DisplayName: Blood Proj
+	Base3DProjectile.DisplayName: Base3 D Projectile
+	MeleeWave_Small.DisplayName: Melee Wave_ Small
+	MeleeWave.DisplayName: Melee Wave
+	Starfury.DisplayName: Starfury
+	NightsEdge.DisplayName: Nights Edge
+	Muramasa.DisplayName: Muramasa
+	Katana.DisplayName: Katana
+	FieryGreatsword.DisplayName: Fiery Greatsword
+	BladeOfGrass.DisplayName: Blade Of Grass
+	BeeKeeper.DisplayName: Bee Keeper
+	TrueNightsEdge.DisplayName: True Nights Edge
+	TitaniumSword.DisplayName: Titanium Sword
+	TExcalibur.DisplayName: T Excalibur
+	TerraBlade.DisplayName: Terra Blade
+	PalladiumPike.DisplayName: Palladium Pike
+	OrichalSword.DisplayName: Orichal Sword
+	OrichalcumHalberd.DisplayName: Orichalcum Halberd
+	MythrilSword.DisplayName: Mythril Sword
+	MythrilHalberd.DisplayName: Mythril Halberd
+	MonkStaffT2.DisplayName: Monk Staff T2
+	IceBlade.DisplayName: Ice Blade
+	Frostbrand.DisplayName: Frostbrand
+	DeathSickle.DisplayName: Death Sickle
+	CobaltSword.DisplayName: Cobalt Sword
+	CobaltNaginata.DisplayName: Cobalt Naginata
+	ChlorophytePartisan.DisplayName: Chlorophyte Partisan
+	BreakerBlade.DisplayName: Breaker Blade
+	Bladetongue.DisplayName: Bladetongue
+	AdamantiteSword.DisplayName: Adamantite Sword
+	AdamantiteGlaive.DisplayName: Adamantite Glaive
+	TitanSwordHostile.DisplayName: Titan Sword Hostile
+	SpearEffect.DisplayName: Spear Effect
+	TerminatorOfLife.DisplayName: Terminator Of Life
+	SymmetricalLanceProj.DisplayName: Symmetrical Lance Proj
+	HostileDashing.DisplayName: Hostile Dashing
+	XiheSummonProj.DisplayName: Xihe Summon Proj
+	LightArrow.DisplayName: Light Arrow
+	LegendSunfury_Proj.DisplayName: Legend Sunfury_ Proj
+	EoLProj_F.DisplayName: Eo L Proj_ F
+	EoLProj.DisplayName: Eo L Proj
+	FlyingSword_SubProj.DisplayName: Flying Sword_ Sub Proj
+	FlyingSword_Proj.DisplayName: Flying Sword_ Proj
+	TitanBeam.DisplayName: Titan Beam
+	SSStarEx.DisplayName: S S Star Ex
+	SSStar4.DisplayName: S S Star4
+	SSStar3.DisplayName: S S Star3
+	SSStar.DisplayName: S S Star
+	SSSMark1.DisplayName: S S S Mark1
+	SSSMark0.DisplayName: S S S Mark0
+	SSSLaser1.DisplayName: S S S Laser1
+	Laser1.DisplayName: Laser1
+	HolyLaser0.DisplayName: Holy Laser0
+	BRStart.DisplayName: B R Start
+	BossBeam1_BR.DisplayName: Boss Beam1_ B R
+	BossBeam1.DisplayName: Boss Beam1
+	RedLaser.DisplayName: Red Laser
+	RedGiantLaser.DisplayName: Red Giant Laser
+	TSProj0.DisplayName: T S Proj0
+	TSLaserProj0.DisplayName: T S Laser Proj0
+	TSLaser0.DisplayName: T S Laser0
+	TSAimLine.DisplayName: T S Aim Line
+	SpazProj0.DisplayName: Spaz Proj0
+	RetaProj0.DisplayName: Reta Proj0
+	EyeFire.DisplayName: Eye Fire
+	CursedFire0.DisplayName: Cursed Fire0
+	CursedBall.DisplayName: Cursed Ball
+	SwordBoss_Proj.DisplayName: Sword Boss_ Proj
+	Mark.DisplayName: Mark
+	Dashing.DisplayName: Dashing
+	BossBeam7.DisplayName: Boss Beam7
+	BossBeam6.DisplayName: Boss Beam6
+	BossBeam5.DisplayName: Boss Beam5
+	BossBeam4.DisplayName: Boss Beam4
+	BossBeam3.DisplayName: Boss Beam3
+	BossBeam2Ray.DisplayName: Boss Beam2 Ray
+	BossBeam2.DisplayName: Boss Beam2
+	Tangent.DisplayName: Tangent
+	Coord.DisplayName: Coord
+	RSProj7.DisplayName: R S Proj7
+	RSProj5.DisplayName: R S Proj5
+	RSProj3.DisplayName: R S Proj3
+	RSProj2.DisplayName: R S Proj2
+	RSProj1.DisplayName: R S Proj1
+	RSProj0.DisplayName: R S Proj0
+	RSMark1.DisplayName: R S Mark1
+	RSMark0.DisplayName: R S Mark0
+	RSLaserFinal2.DisplayName: R S Laser Final2
+	RSLaserFinal.DisplayName: R S Laser Final
+	RSLaser2.DisplayName: R S Laser2
+	RSLaser1.DisplayName: R S Laser1
+	RSLaser.DisplayName: R S Laser
+	RSfProj4.DisplayName: R Sf Proj4
+	RSEffProj.DisplayName: R S Eff Proj
+	RSAimLine.DisplayName: R S Aim Line
+	RS3DProj3.DisplayName: R S3 D Proj3
+	RS3DProj2.DisplayName: R S3 D Proj2
+	RS3DProj1.DisplayName: R S3 D Proj1
+	AimLine1.DisplayName: Aim Line1
+	SlimeBall.DisplayName: Slime Ball
+	VEffProj.DisplayName: V Eff Proj
+	SCCut.DisplayName: S C Cut
+	CursedFireWall.DisplayName: Cursed Fire Wall
+	CursedFireBurst.DisplayName: Cursed Fire Burst
+	CursedFireBall.DisplayName: Cursed Fire Ball
+	CrimsonProj.DisplayName: Crimson Proj
+	CrimsonAim.DisplayName: Crimson Aim
+	CosmicMark.DisplayName: Cosmic Mark
+	CosmicLightning.DisplayName: Cosmic Lightning
+	CosmicLaser.DisplayName: Cosmic Laser
+	CosmicFireBall.DisplayName: Cosmic Fire Ball
+	CorShakeWave.DisplayName: Cor Shake Wave
+	AimLine2.DisplayName: Aim Line2
+	CurDashing.DisplayName: Cur Dashing
+	Corruption.DisplayName: Corruption
+	CorProj2.DisplayName: Cor Proj2
+	CorProj1.DisplayName: Cor Proj1
+	SunProj.DisplayName: Sun Proj
+	SolarProminence.DisplayName: Solar Prominence
+	EoLLight.DisplayName: Eo L Light
+	EoLLaser2.DisplayName: Eo L Laser2
+	EoLLaser1.DisplayName: Eo L Laser1
+	EoLLaser.DisplayName: Eo L Laser
+	EoLLance.DisplayName: Eo L Lance
+	EoLFire.DisplayName: Eo L Fire
+	EoLCube.DisplayName: Eo L Cube
+	EoLBigLaser.DisplayName: Eo L Big Laser
+	Cycloid.DisplayName: Cycloid
+	CrystalArrow.DisplayName: Crystal Arrow
+	EocProj.DisplayName: Eoc Proj
+	BocTentacle.DisplayName: Boc Tentacle
+	TerraSeed.DisplayName: Terra Seed
+	TerraProj.DisplayName: Terra Proj
+	TheHorsemansBlade.DisplayName: The Horsemans Blade
+	ZenithBoss_CollidingAndDraw.DisplayName: Zenith Boss_ Colliding And Draw
+	Zenith_WaveDashing.DisplayName: Zenith_ Wave Dashing
+	ZenithDashing.DisplayName: Zenith Dashing
+	ZenithBeam.DisplayName: Zenith Beam
+	ZenithMark.DisplayName: Zenith Mark
+	NewLaser.DisplayName: New Laser
+	Seedler.DisplayName: Seedler
+	SeedlerSeed.DisplayName: Seedler Seed
+	FlowerPow.DisplayName: Flower Pow
+	FlowerPowPetal.DisplayName: Flower Pow Petal
+	YinYang.DisplayName: Yin Yang
+	MilkyWay_Proj.DisplayName: Milky Way_ Proj
+	CharonDoubleSickle_sickle.DisplayName: Charon Double Sickle_sickle
+	CharonDoubleSickle.DisplayName: Charon Double Sickle
+	BloodLine.DisplayName: Blood Line
+	BloodSpear.DisplayName: Blood Spear
+	BloodSpirit.DisplayName: Blood Spirit
+	BloodSpiritProj.DisplayName: Blood Spirit Proj
+	DarkFlower_Proj.DisplayName: Dark Flower_ Proj
+	XiheMagicControler.DisplayName: Xihe Magic Controler
+	EoLBigLaser_Friendly.DisplayName: Eo L Big Laser_ Friendly
+	Terra_WaveDashing.DisplayName: Terra_ Wave Dashing
+	BloodSpiritProj0.DisplayName: Blood Spirit Proj0
+	SummonMagic.DisplayName: Summon Magic
+	RedLilyTrailProj.DisplayName: Red Lily Trail Proj
+	RedLilyTrailProj1.DisplayName: Red Lily Trail Proj1
+	BloodHealProj.DisplayName: Blood Heal Proj
+	SpriteHook.DisplayName: Sprite Hook
+	BaseProj.DisplayName: Base Proj
+	StardustProj.DisplayName: Stardust Proj
+	StardustSword.DisplayName: Stardust Sword
+	BloodCrossMark.DisplayName: Blood Cross Mark
+	BloodLaser.DisplayName: Blood Laser
+	BloodDashing.DisplayName: Blood Dashing
+	BloodVortex.DisplayName: Blood Vortex
+	ShrinkVortex.DisplayName: Shrink Vortex
+	BloodThorn.DisplayName: Blood Thorn
+	BloodThornMagic.DisplayName: Blood Thorn Magic
+	ZenithSwordProj.DisplayName: Zenith Sword Proj
+	ZenithSwordProj_Friendly.DisplayName: Zenith Sword Proj_ Friendly
+	ZenithMeleeWave.DisplayName: Zenith Melee Wave
+	TNightBeam_Hostile.DisplayName: T Night Beam_ Hostile
+	TNightEye_Hostile.DisplayName: T Night Eye_ Hostile
+	HexaFireball.DisplayName: Hexa Fireball
+	HexaFireball_SP.DisplayName: Hexa Fireball_ S P
+	HexaRealm.DisplayName: Hexa Realm
+	HexaRealmRing.DisplayName: Hexa Realm Ring
+	HexaRealm_Center.DisplayName: Hexa Realm_ Center
+	HexaLaser.DisplayName: Hexa Laser
+	InfluxWaverProj.DisplayName: Influx Waver Proj
+	InfluxWaver.DisplayName: Influx Waver
+	VampireKnife.DisplayName: Vampire Knife
+	ZenithStar.DisplayName: Zenith Star
+	ZenithStar0.DisplayName: Zenith Star0
+	ZenithStar1.DisplayName: Zenith Star1
+	RailGunProj.DisplayName: Rail Gun Proj
+	RailGunProj1.DisplayName: Rail Gun Proj1
+}
+
+NPCs: {
+	TitanShadowBoss.DisplayName: Titan Shadow Boss
+	SwordBoss_BossRush.DisplayName: Sword Boss_ Boss Rush
+	SwordBoss.DisplayName: Sword Boss
+	SSS.DisplayName: S S S
+	TSBoss.DisplayName: T S Boss
+	RSBossClone.DisplayName: R S Boss Clone
+	RSBoss.DisplayName: 彩虹魔杖
+	CursedHammer.DisplayName: 诅咒锤
+	CrimsonAxe.DisplayName: 血腥斧
+	Corruptor.DisplayName: Corruptor
+	XiHe.DisplayName: 羲和
+	CursedDummy.DisplayName: Cursed Dummy
+	ZenithBoss.DisplayName: Zenith Boss
+	BloodServant.DisplayName: Blood Servant
+	BloodSpiritBoss.DisplayName: Blood Spirit Boss
+	HexaGhost.DisplayName: 六火亡魂
+}
+
+Items: {
+	XiheSummonItem: {
+		Tooltip: ""
+		DisplayName: Xihe Summon Item
+	}
+
+	Tester2: {
+		Tooltip: ""
+		DisplayName: Tester2
+	}
+
+	Tester: {
+		Tooltip: ""
+		DisplayName: Tester
+	}
+
+	「生命终结者」: {
+		Tooltip: ""
+		DisplayName: 「生命终结者」
+	}
+
+	SymmetricalLance: {
+		Tooltip: ""
+		DisplayName: Symmetrical Lance
+	}
+
+	StarCannonEX: {
+		Tooltip: ""
+		DisplayName: Star Cannon E X
+	}
+
+	Serenade: {
+		Tooltip: ""
+		DisplayName: Serenade
+	}
+
+	PhaseBladeItem: {
+		Tooltip: ""
+		DisplayName: Phase Blade Item
+	}
+
+	IcarusBow: {
+		Tooltip: ""
+		Tooltip0: 持有此物品时将禁用无限飞行
+		Tooltip1: 当有剩余飞行时间时，将消耗飞行时间增加攻击段数
+		Tooltip2: “振翅逐日破苍穹，灼翼焚身耀永恒”——DeepSeek
+		DisplayName: 伊卡洛斯之弓
+	}
+
+	XiHeMagicItem: {
+		Tooltip: ""
+		DisplayName: Xi He Magic Item
+	}
+
+	LegendSunfury: {
+		Tooltip: ""
+		DisplayName: Legend Sunfury
+	}
+
+	FlyingSword: {
+		Tooltip: ""
+		DisplayName: Flying Sword
+	}
+
+	BossRushControler: {
+		Tooltip: ""
+		DisplayName: Boss Rush Controler
+	}
+
+	BossSummon: {
+		Tooltip: ""
+		DisplayName: Boss Summon
+	}
+
+	HASummoner: {
+		Tooltip: 召唤诅咒锤斧
+		DisplayName: 可疑的锤斧
+	}
+
+	CharonDoubleSickle: {
+		DisplayName: Charon Double Sickle
+		Tooltip: ""
+	}
+
+	CharonDoubleSickle_Item: {
+		DisplayName: Charon Double Sickle_ Item
+		Tooltip: ""
+	}
+
+	DarkFlower: {
+		DisplayName: Dark Flower
+		Tooltip: ""
+	}
+
+	SpriteHookItem: {
+		DisplayName: Sprite Hook Item
+		Tooltip: ""
+	}
+
+	SniperRifle: {
+		DisplayName: 狙击步枪
+		Tooltip:
+			'''
+			（From 雨中冒险2）
+			右键显示目标弱点并增加攻击精度
+			若命中弱点则必定暴击并将暴击率转化为暴击伤害
+			攻击后在适当时间装弹可以增加下次攻击的伤害
+			'''
+	}
+
+	ClockworkAssaultRifle: {
+		DisplayName: 发条式狙击枪
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	DashMeleeBuff: {
+		Description: Mods.MEAC.Buffs.DashMeleeBuff.Description
+		DisplayName: Dash Melee Buff
+	}
+
+	CantDashMeleeBuff: {
+		Description: Mods.MEAC.Buffs.CantDashMeleeBuff.Description
+		DisplayName: Cant Dash Melee Buff
+	}
+}
+
+Configs: {
+	MEACConfig: {
+		DisplayName: MEACConfig
+
+		coverAI: {
+			Label: BossAI覆盖
+			Tooltip: 覆盖其它mod对bossAI的修改，避免ai冲突。（实验性功能，无法保证成功运行）
+		}
+
+		bossChange: {
+			Label: BossAI修改
+			Tooltip: 修改部分原版Boss
+		}
+
+		itemChange: {
+			Label: 物品修改
+			Tooltip: 修改部分原版物品
+		}
+
+		Headers.以下修改需要重新加载或重启游戏才能生效: 以下修改需要重新加载或重启游戏才能生效
+
+		showMeleeDisplay: {
+			Label: 近战加成条显示
+			Tooltip: ""
+		}
+	}
+}
+
+VanillaItemTooltips: {
+	VampireKnife: {
+		Tooltip0: 无法重铸
+		Tooltip1: 击杀数越多，伤害越高
+		Tooltip2: 当前击杀数：
+	}
+
+	CactusSword.Tooltip: 伤害、暴击率、大小提升，但暴击时会使自己受到一半的伤害
+	ZombieArm.Tooltip: 击退能力增强
+	ReaverShark.Tooltip: 镐力变为60，挖掘速度增加
+	CrimsonRod.Tooltip: 右键可消耗少量魔力控制血雨云移动到鼠标上方
+
+	LightsBane: {
+		Tooltip0: 击败克苏鲁之眼后获得特殊强化
+		Tooltip1: 攻击附加三道刀光
+	}
+
+	BloodButcherer: {
+		Tooltip0: 击败克苏鲁之眼后获得特殊强化
+		Tooltip1: 攻击附加穿透剑气
+	}
+
+	ThunderSpear: {
+		Tooltip0: 重做攻击方式；对水中的敌人造成双倍伤害
+		Tooltip1: ，击败猪龙鱼公爵后获得更多特殊强化
+		Tooltip2: ，右键进行蓄力攻击
+	}
+
+	EnchantedBoomerang.Tooltip: 击退降低，飞行速度增加，能够追踪敌人
+	FieryGreatsword.Tooltip: 重做攻击方式；右键进行蓄力攻击；在空中右键进行下落攻击
+	BladeofGrass.Tooltip: 重做攻击方式
+	Muramasa.Tooltip: 重做攻击方式；当近战条达到一半以上时可发动强化攻击
+	Starfury.Tooltip: 右键可进行近战攻击，命中时生成追踪落星
+	Katana.Tooltip: 重做攻击方式；当近战条达到一半以上时可发动强化攻击
+	IceBlade.Tooltip: 重做攻击方式；当近战条达到一半以上时可发动强化攻击
+	Frostbrand.Tooltip: 重做攻击方式；当近战条达到一半以上时可发动强化攻击
+	DarkLance.Tooltip: 重做攻击方式
+	BeeKeeper.Tooltip: 重做攻击方式；当近战条达到一半以上时右键可进行冲刺攻击
+	NightsEdge.Tooltip: 重做攻击方式；在夜晚时大幅增强能力
+
+	EmpressButterfly: {
+		Text0: 部分信息被某些强大生物封印
+		Text1: 正午时
+		Text2: ，
+		Text3: 在玩家向着太阳升起方向放置的
+		Text4: 光之女皇圣物旁
+		Text5: 杀死此生物
+	}
+}
