@@ -4,8 +4,8 @@ SET TMODFILE=MEAC
 :: -------
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
-tModUnpacker.exe "downloaded\\2025.3\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
-
+tModUnpacker.exe "downloaded\\content\\1281930\\2858396998\\2025.3\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
+:: downloaded/content/1281930/2858396998/2025.3
 powershell -Command ^
   "Compress-Archive -Path 'tmodFileExtracted\%TMODFILE%\*' -DestinationPath '%TMODFILE%.zip' -Force"
 
