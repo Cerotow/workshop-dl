@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence>
+  <Data>
+    <DisplayName>复合斩击Complex</DisplayName>
+    <AuthorName>错数螺线</AuthorName>
+    <Description>大杂烩!!</Description>
+    <CreateTime>2024-08-18 16:50:42</CreateTime>
+    <ModifyTime>2025-12-16 13:28:02</ModifyTime>
+  </Data>
+  <Group FullName="ConditionalMultiGroup">
+    <Sequence condition="TimeDay" FullName="CoolerItemVisualEffect/MeleeAction/HeavyChop" />
+    <Sequence FullName="CoolerItemVisualEffect/MeleeAction/PureSlash" />
+  </Group>
+  <Group FullName="ConditionalMultiGroup">
+    <Element condition="WorldForTheWorthy" FullName="LogSpiralLibrary/StabInfo">
+      <ModifyData>
+        <Size>3.0</Size>
+        <TimeScaler>1.5</TimeScaler>
+        <KnockBack>3.0</KnockBack>
+        <Damage>2.3</Damage>
+      </ModifyData>
+    </Element>
+    <Sequence condition="WorldNotTheBees">
+      <Element FullName="LogSpiralLibrary/SwooshInfo">
+        <mode>Slash</mode>
+        <ModifyData>
+          <Size>1.5</Size>
+        </ModifyData>
+        <CounterMax>2</CounterMax>
+      </Element>
+      <Element FullName="LogSpiralLibrary/StabInfo">
+        <ModifyData>
+          <TimeScaler>2.0</TimeScaler>
+        </ModifyData>
+        <CounterMax>3</CounterMax>
+      </Element>
+    </Sequence>
+    <Sequence FullName="CoolerItemVisualEffect/MeleeAction/PureStab" />
+  </Group>
+  <Sequence FullName="CoolerItemVisualEffect/MeleeAction/StormySlash" />
+</Sequence>

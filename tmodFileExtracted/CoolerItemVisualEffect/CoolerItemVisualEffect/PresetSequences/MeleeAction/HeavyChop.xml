@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence>
+  <Data>
+    <DisplayName>纯重斩HeavyChop</DisplayName>
+    <AuthorName>错数螺线</AuthorName>
+    <Description>纯粹的重斩</Description>
+    <CreateTime>2024-08-18 16:35:27</CreateTime>
+    <ModifyTime>2025-12-16 13:28:10</ModifyTime>
+  </Data>
+  <Element FullName="LogSpiralLibrary/SwooshInfo" />
+</Sequence>

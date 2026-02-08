@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence>
+  <Data>
+    <DisplayName>风暴斩击Stormy</DisplayName>
+    <AuthorName>错数螺线</AuthorName>
+    <Description>非常爽口的连斩</Description>
+    <CreateTime>2024-08-18 16:16:26</CreateTime>
+    <ModifyTime>2025-12-16 13:27:52</ModifyTime>
+  </Data>
+  <Element FullName="LogSpiralLibrary/SwooshInfo">
+    <ModifyData>
+      <TimeScaler>3.0</TimeScaler>
+      <Damage>1.1</Damage>
+    </ModifyData>
+    <CounterMax>3</CounterMax>
+  </Element>
+  <Element FullName="LogSpiralLibrary/SwooshInfo">
+    <mode>Slash</mode>
+    <ModifyData>
+      <TimeScaler>2.0</TimeScaler>
+      <Damage>0.7</Damage>
+    </ModifyData>
+    <CounterMax>4</CounterMax>
+  </Element>
+  <Element FullName="LogSpiralLibrary/SwooshInfo">
+    <ModifyData>
+      <TimeScaler>2.5</TimeScaler>
+      <Damage>2.1</Damage>
+      <CritAdder>15</CritAdder>
+      <CritMultiplier>1.3</CritMultiplier>
+    </ModifyData>
+  </Element>
+</Sequence>

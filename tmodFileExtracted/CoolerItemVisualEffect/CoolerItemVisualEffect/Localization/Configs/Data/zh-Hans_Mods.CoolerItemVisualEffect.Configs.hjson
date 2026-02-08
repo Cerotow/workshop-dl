@@ -1,0 +1,308 @@
+ColorVector: {
+	MapColorAlpha: {
+		Label: 单向渐变
+		Tooltip: 单向渐变的系数(占比)
+	}
+
+	WeaponColorAlpha: {
+		Label: 武器对角线
+		Tooltip: 武器对角线的系数(占比)
+	}
+
+	HeatMapAlpha: {
+		Label: 热度图
+		Tooltip: 热度图的系数(占比)
+	}
+
+	Normalize: {
+		Label: 单位化(归一化)
+		Tooltip: 如果启用将会使最终结果各分量加起来为1
+	}
+
+	// Tooltip: ""
+}
+
+HeatMapCreateStyle: {
+	// Tooltip: ""
+
+	ByFunction: {
+		Label: 函数生成
+		// Tooltip: ""
+	}
+
+	FromTexturePixel: {
+		Label: 贴图像素
+		// Tooltip: ""
+	}
+
+	Designate: {
+		Label: 指定
+		// Tooltip: ""
+	}
+
+	// CosineGenerate.Label: Cosine Generate
+
+	CosineGenerate_RGB: {
+		Label: 余弦RGB
+		// Tooltip: ""
+	}
+
+	CosineGenerate_HSL: {
+		Label: 余弦HSL
+		// Tooltip: ""
+	}
+}
+
+HeatMapFactorStyle: {
+	// Tooltip: ""
+
+	Linear: {
+		Label: 线性
+		// Tooltip: ""
+	}
+
+	Floor: {
+		Label: 分块
+		// Tooltip: ""
+	}
+
+	Quadratic: {
+		Label: 二次
+		// Tooltip: ""
+	}
+
+	SquareRoot: {
+		Label: 平方根
+		// Tooltip: ""
+	}
+
+	SmoothFloor: {
+		Label: 柔和分块
+		// Tooltip: ""
+	}
+}
+
+MeleeModifyLevel: {
+	Tooltip: ""
+
+	Vanilla: {
+		Label: 原版
+		// Tooltip: ""
+	}
+
+	VisualOnly: {
+		Label: 仅视觉
+		// Tooltip: ""
+	}
+
+	Overhaul: {
+		Label: 自由配置
+		// Tooltip: ""
+	}
+
+	PresetOnly: {
+		Label: 仅预设
+		// Tooltip: ""
+	}
+
+	ServerProvide: {
+		Label: 服务器提供
+		// Tooltip: ""
+	}
+
+	StandardOnly: {
+		Label: 仅标准/拓展组件
+		// Tooltip: ""
+	}
+}
+
+ByFuncHeatMapData: {
+	// Tooltip: ""
+
+	Hue: {
+		Label: 色相
+		// Tooltip: ""
+	}
+
+	Saturation: {
+		Label: 饱和度
+		// Tooltip: ""
+	}
+
+	Luminosity: {
+		Label: 亮度
+		// Tooltip: ""
+	}
+}
+
+HueInfo: {
+	// Tooltip: ""
+
+	Range: {
+		Label: 范围
+		// Tooltip: ""
+	}
+
+	Offset: {
+		Label: 偏移
+		// Tooltip: ""
+	}
+}
+
+SaturationInfo: {
+	// Tooltip: ""
+
+	Scalar: {
+		Label: 系数
+		// Tooltip: ""
+	}
+
+	Range: {
+		Label: 范围
+		// Tooltip: ""
+	}
+
+	Offset: {
+		Label: 偏移
+		// Tooltip: ""
+	}
+}
+
+LuminosityInfo: {
+	// Tooltip: ""
+
+	Scalar: {
+		Label: 系数
+		// Tooltip: ""
+	}
+
+	Range: {
+		Label: 范围
+		// Tooltip: ""
+	}
+
+	Offset: {
+		Label: 偏移
+		// Tooltip: ""
+	}
+}
+
+CosineGenerateHeatMapData_RGB: {
+	// Tooltip: ""
+
+	Red: {
+		Label: 红
+		Tooltip: ""
+	}
+
+	Green: {
+		Label: 绿
+		Tooltip: ""
+	}
+
+	Blue: {
+		Label: 蓝
+		Tooltip: ""
+	}
+
+	Global: {
+		Label: 全局控制
+		Tooltip: ""
+	}
+
+	Cosines: {
+		// Label: Cosines
+		// Tooltip: ""
+	}
+
+	LineColors: {
+		// Label: Line Colors
+		// Tooltip: ""
+	}
+
+	LineColorMethods: {
+		// Label: Line Color Methods
+		// Tooltip: ""
+	}
+}
+
+CosineInfo: {
+	// Tooltip: ""
+
+	Offset: {
+		Label: 常数项
+		// Tooltip: ""
+	}
+
+	Amplitude: {
+		Label: 振幅
+		// Tooltip: ""
+	}
+
+	Frequency: {
+		Label: 频率
+		// Tooltip: ""
+	}
+
+	Phase: {
+		Label: 相位
+		// Tooltip: ""
+	}
+}
+
+CosineGenerateHeatMapData_HSL: {
+	// Tooltip: ""
+
+	Hue: {
+		Label: 色相
+		// Tooltip: ""
+	}
+
+	Saturation: {
+		Label: 饱和度
+		// Tooltip: ""
+	}
+
+	Luminosity: {
+		Label: 亮度
+		// Tooltip: ""
+	}
+
+	Cosines: {
+		// Label: Cosines
+		// Tooltip: ""
+	}
+
+	LineColorMethods: {
+		// Label: Line Color Methods
+		// Tooltip: ""
+	}
+
+	LineColors: {
+		// Label: Line Colors
+		// Tooltip: ""
+	}
+}
+
+DesignateHeatMapData: {
+	// Tooltip: ""
+
+	Colors: {
+		// Label: Colors
+		// Tooltip: ""
+	}
+}
+
+ColorInfo: {
+	// Tooltip: ""
+
+	Color: {
+		// Label: Color
+		// Tooltip: ""
+	}
+
+	Position: {
+		// Label: Position
+		// Tooltip: ""
+	}
+}

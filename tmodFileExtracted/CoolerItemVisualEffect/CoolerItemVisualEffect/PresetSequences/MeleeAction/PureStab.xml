@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequence>
+  <Data>
+    <DisplayName>纯穿刺Stab</DisplayName>
+    <AuthorName>错数螺线</AuthorName>
+    <Description>突突突!!</Description>
+    <CreateTime>2024-08-18 16:45:39</CreateTime>
+    <ModifyTime>2025-12-16 13:28:17</ModifyTime>
+  </Data>
+  <Element FullName="LogSpiralLibrary/StabInfo">
+    <ModifyData>
+      <TimeScaler>1.5</TimeScaler>
+      <Damage>0.5</Damage>
+      <CritMultiplier>0.8</CritMultiplier>
+    </ModifyData>
+    <CounterMax>4</CounterMax>
+  </Element>
+  <Element FullName="LogSpiralLibrary/RapidlyStabInfo">
+    <rangeOffsetMin>0</rangeOffsetMin>
+    <rangeOffsetMax>4</rangeOffsetMax>
+    <givenCycle>3</givenCycle>
+    <ModifyData>
+      <TimeScaler>3.0</TimeScaler>
+      <Damage>0.8</Damage>
+    </ModifyData>
+  </Element>
+  <Element FullName="LogSpiralLibrary/StabInfo">
+    <ModifyData>
+      <Size>1.2</Size>
+      <TimeScaler>3.0</TimeScaler>
+      <KnockBack>3.5</KnockBack>
+      <Damage>1.5</Damage>
+      <CritAdder>10</CritAdder>
+      <CritMultiplier>1.1</CritMultiplier>
+    </ModifyData>
+    <CounterMax>2</CounterMax>
+  </Element>
+</Sequence>

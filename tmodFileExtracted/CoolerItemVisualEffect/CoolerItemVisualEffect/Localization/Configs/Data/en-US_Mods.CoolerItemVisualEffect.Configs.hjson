@@ -1,0 +1,308 @@
+ColorVector: {
+	MapColorAlpha: {
+		Label: Gradient
+		Tooltip: Coefficient Of Gradient
+	}
+
+	WeaponColorAlpha: {
+		Label: Diagonal
+		Tooltip: Coefficient Of Weapon Diagonal Color
+	}
+
+	HeatMapAlpha: {
+		Label: HeatMap
+		Tooltip: Coefficient Of HeatMap
+	}
+
+	Normalize: {
+		Label: Normalize
+		Tooltip: If set it to Yes,Dot Product:((1,1,1),ColorVector)) would be 1
+	}
+
+	Tooltip: ""
+}
+
+HeatMapCreateStyle: {
+	Tooltip: ""
+
+	ByFunction: {
+		Label: By Function
+		Tooltip: ""
+	}
+
+	FromTexturePixel: {
+		Label: From Texture Pixel
+		Tooltip: ""
+	}
+
+	Designate: {
+		Label: Designate
+		Tooltip: ""
+	}
+
+	CosineGenerate.Label: Cosine Generate
+
+	CosineGenerate_RGB: {
+		Label: Cosine Generate_ R G B
+		Tooltip: ""
+	}
+
+	CosineGenerate_HSL: {
+		Label: Cosine Generate_ H S L
+		Tooltip: ""
+	}
+}
+
+HeatMapFactorStyle: {
+	Tooltip: ""
+
+	Linear: {
+		Label: Linear
+		Tooltip: ""
+	}
+
+	Floor: {
+		Label: Floor
+		Tooltip: ""
+	}
+
+	Quadratic: {
+		Label: Quadratic
+		Tooltip: ""
+	}
+
+	SquareRoot: {
+		Label: Square Root
+		Tooltip: ""
+	}
+
+	SmoothFloor: {
+		Label: Smooth Floor
+		Tooltip: ""
+	}
+}
+
+MeleeModifyLevel: {
+	Tooltip: ""
+
+	Vanilla: {
+		Label: Vanilla
+		Tooltip: ""
+	}
+
+	VisualOnly: {
+		Label: Visual Only
+		Tooltip: ""
+	}
+
+	Overhaul: {
+		Label: No Limit
+		Tooltip: ""
+	}
+
+	PresetOnly: {
+		Label: Preset Only
+		Tooltip: ""
+	}
+
+	ServerProvide: {
+		Label: Server Provided
+		Tooltip: ""
+	}
+
+	StandardOnly: {
+		Label: Standard Elements Only
+		Tooltip: ""
+	}
+}
+
+ByFuncHeatMapData: {
+	Tooltip: ""
+
+	Hue: {
+		Label: H
+		Tooltip: ""
+	}
+
+	Saturation: {
+		Label: S
+		Tooltip: ""
+	}
+
+	Luminosity: {
+		Label: L
+		Tooltip: ""
+	}
+}
+
+HueInfo: {
+	Tooltip: ""
+
+	Range: {
+		Label: range
+		Tooltip: ""
+	}
+
+	Offset: {
+		Label: offset
+		Tooltip: ""
+	}
+}
+
+SaturationInfo: {
+	Tooltip: ""
+
+	Scalar: {
+		Label: scalar
+		Tooltip: ""
+	}
+
+	Range: {
+		Label: range
+		Tooltip: ""
+	}
+
+	Offset: {
+		Label: offset
+		Tooltip: ""
+	}
+}
+
+LuminosityInfo: {
+	Tooltip: ""
+
+	Scalar: {
+		Label: scalar
+		Tooltip: ""
+	}
+
+	Range: {
+		Label: range
+		Tooltip: ""
+	}
+
+	Offset: {
+		Label: offset
+		Tooltip: ""
+	}
+}
+
+CosineGenerateHeatMapData_RGB: {
+	Tooltip: ""
+
+	Red: {
+		Label: Red
+		Tooltip: ""
+	}
+
+	Green: {
+		Label: Green
+		Tooltip: ""
+	}
+
+	Blue: {
+		Label: Blue
+		Tooltip: ""
+	}
+
+	Global: {
+		Label: Global
+		Tooltip: ""
+	}
+
+	Cosines: {
+		Label: Cosines
+		Tooltip: ""
+	}
+
+	LineColors: {
+		Label: Line Colors
+		Tooltip: ""
+	}
+
+	LineColorMethods: {
+		Label: Line Color Methods
+		Tooltip: ""
+	}
+}
+
+CosineInfo: {
+	Tooltip: ""
+
+	Offset: {
+		Label: Offset
+		Tooltip: ""
+	}
+
+	Amplitude: {
+		Label: Amplitude
+		Tooltip: ""
+	}
+
+	Frequency: {
+		Label: Frequency
+		Tooltip: ""
+	}
+
+	Phase: {
+		Label: Phase
+		Tooltip: ""
+	}
+}
+
+CosineGenerateHeatMapData_HSL: {
+	Tooltip: ""
+
+	Hue: {
+		Label: Hue
+		Tooltip: ""
+	}
+
+	Saturation: {
+		Label: Saturation
+		Tooltip: ""
+	}
+
+	Luminosity: {
+		Label: Luminosity
+		Tooltip: ""
+	}
+
+	Cosines: {
+		Label: Cosines
+		Tooltip: ""
+	}
+
+	LineColorMethods: {
+		Label: Line Color Methods
+		Tooltip: ""
+	}
+
+	LineColors: {
+		Label: Line Colors
+		Tooltip: ""
+	}
+}
+
+DesignateHeatMapData: {
+	Tooltip: ""
+
+	Colors: {
+		Label: Colors
+		Tooltip: ""
+	}
+}
+
+ColorInfo: {
+	Tooltip: ""
+
+	Color: {
+		Label: Color
+		Tooltip: ""
+	}
+
+	Position: {
+		Label: Position
+		Tooltip: ""
+	}
+}

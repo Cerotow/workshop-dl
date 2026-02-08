@@ -1,0 +1,33 @@
+﻿Translated by Deepseek:
+
+Modified the visual effects of melee weapons, adding customizable light effects that can be adjusted in the settings.
+
+In server settings, administrators can choose to disable these modifications or enable actual effect changes.
+
+Added weapon back display in the world or character selection interface.
+
+Additional light effects for items in the backpack or dropped in the world can be enabled.
+
+Redesigned the rendering of some projectiles and reworked the teleportation effect.
+
+The visual effect configuration for melee weapons includes:
+
+Textures, duration, particle count, color schemes, and special effects.
+
+Actual effect changes must be enabled to apply the corresponding modification sequences.
+
+Default key "Y" opens the sequence editing panel.
+
+Sequences marked as "LogSpiralLibrary" or "CoolerItemVisualEffect" can be selected in the mod configuration's sequence selection.
+
+Configuration Manager and Group Manager can be created.
+
+Configuration Manager: Left-click to save the current configuration; right-click to open the panel, where you can rename, edit, or load saved configurations.
+
+Group Manager: Right-click to open the panel and create a new group.
+
+It is recommended to use a whitelist + non-default group approach to add modified items.
+
+In the backpack, point the weapon at the item list box to add or replace it; click with an empty mouse slot to remove an item.
+
+Group-bound configurations are those saved in the Configuration Manager. If no configuration is bound, the current mod configuration will be used instead of the saved one.
