@@ -1,11 +1,11 @@
 :: Do not use double quote here
-SET TMODFILE=MEAC
+SET TMODFILE=CoolerItemVisualEffect
 
 :: -------
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
-tModUnpacker.exe "downloaded\\content\\1281930\\2858396998\\2025.3\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
-:: downloaded/content/1281930/2858396998/2025.3
+tModUnpacker.exe "downloaded\\content\\1281930\\2829306780\\2025.11\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
+:: downloaded/content/1281930/2829306780/2025.11 
 powershell -Command ^
   "Compress-Archive -Path 'tmodFileExtracted\%TMODFILE%\*' -DestinationPath '%TMODFILE%.zip' -Force"
 
