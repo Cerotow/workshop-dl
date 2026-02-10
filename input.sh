@@ -4,4 +4,4 @@ export APP_ID=1281930
 export ENTRY_ID=2815777479
 
 # tmod file to extract using extractTmod.yml workflow
-export TMODFILE="CoolerItemVisualEffect.tmod"
+export TMODFILE="DDmod.tmod"
