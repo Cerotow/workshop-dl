@@ -1,5 +1,5 @@
 :: Do not use double quote here
-SET TMODFILE=CoolerItemVisualEffect
+SET TMODFILE=DDmod.tmod
 
 :: -------
 
