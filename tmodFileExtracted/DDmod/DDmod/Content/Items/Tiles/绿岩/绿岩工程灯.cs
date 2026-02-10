@@ -1,0 +1,36 @@
+﻿using DDmod.Content.Items.Tiles.绿岩;
+using DDmod.Content.Tiles.EquipTiles;
+using DDmod.Content.Tiles.Trophy;
+using DDmod.Content.Tiles.晶凝;
+using DDmod.Content.Tiles.绿岩.家具;
+using Terraria.ID;
+
+namespace DDmod.Content.Items.Tiles.绿岩
+{
+    public class 绿岩工程灯 : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 32;
+            Item.height = 32;
+            Item.maxStack = Item.CommonMaxStack;
+            Item.useTurn = true;
+            Item.autoReuse = true;
+            Item.useAnimation = 15;
+            Item.useTime = 10;
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.consumable = true;
+            Item.value = Item.buyPrice(0, 0, 1, 0);
+            Item.createTile = ModContent.TileType<绿岩工程灯Tile>();
+            Item.placeStyle = 0;
+        }
+        public override void SetStaticDefaults()
+        {
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 5;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe(1).AddIngredient(8, 1).AddIngredient(ModContent.ItemType<绿岩砖>(), 3).AddTile(TileID.WorkBenches).Register();
+        }
+    }
+}

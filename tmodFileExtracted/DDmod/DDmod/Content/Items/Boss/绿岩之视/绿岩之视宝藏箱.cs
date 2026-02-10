@@ -1,0 +1,121 @@
+﻿using DDmod.Content.Items.Boss.狱火蛇物品;
+using DDmod.Content.Items.Series.绿岩;
+using DDmod.Content.Items.Talisman;
+using DDmod.Content.NPCs.Boss.LifeGuardLes;
+using DDmod.Content.NPCs.Boss.狱火蛇;
+using DDmod.Content.NPCs.Boss.鬼牙;
+using Terraria;
+using Terraria.ModLoader;
+
+namespace DDmod.Content.Items.Boss.绿岩之视
+{
+    public class 绿岩之视宝藏箱 : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            ItemID.Sets.PreHardmodeLikeBossBag[Type] = true;
+
+            ItemID.Sets.BossBag[Type] = true;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 3;
+        }
+
+        public override void SetDefaults()
+        {
+            Item.maxStack = Item.CommonMaxStack;
+            Item.consumable = true;
+            Item.width = 32;
+            Item.value = Item.buyPrice(0, 3, 0, 0);
+            Item.height = 36;
+            Item.rare = ItemRarityID.Orange;
+            Item.expert = true;
+        }
+
+        public override bool CanRightClick()
+        {
+            return true;
+        }
+        public override void ModifyItemLoot(ItemLoot itemLoot)
+        {
+            itemLoot.Add(ItemDropRule.NotScalingWithLuck(ModContent.ItemType<绿岩电池>(), 1, 12, 15));
+            itemLoot.Add(ItemDropRule.NotScalingWithLuck(ModContent.ItemType<绿岩晶石>(), 1, 60, 120));
+
+            itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<绿岩导弹发射器>()));
+
+            itemLoot.Add(ItemDropRule.CoinsBasedOnNPCValue(ModContent.NPCType<NPCs.Boss.绿岩之视.绿岩之视>()));
+        }
+        public override Color? GetAlpha(Color lightColor)
+        {
+            return Color.Lerp(lightColor, Color.White, 0.4f);
+        }
+
+        public override void PostUpdate()
+        {
+            Lighting.AddLight(Item.Center, Color.White.ToVector3() * 0.4f);
+
+            if (Item.timeSinceItemSpawned % 12 == 0)
+            {
+                Vector2 center = Item.Center + new Vector2(0f, Item.height * -0.1f);
+
+                Vector2 direction = Main.rand.NextVector2CircularEdge(Item.width * 0.6f, Item.height * 0.6f);
+                float distance = 0.3f + Main.rand.NextFloat() * 0.5f;
+                Vector2 velocity = new Vector2(0f, -Main.rand.NextFloat() * 0.3f - 1.5f);
+
+                Dust dust = NewDustPerfect(center + direction * distance, DustID.SilverFlame, velocity);
+                dust.scale = 0.5f;
+                dust.fadeIn = 1.1f;
+                dust.noGravity = true;
+                dust.noLight = true;
+                dust.alpha = 0;
+            }
+        }
+
+        public override bool PreDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor, ref float rotation, ref float scale, int whoAmI)
+        {
+            Texture2D texture = TextureAssets.Item[Item.type].Value;
+
+            Rectangle frame;
+
+            if (Main.itemAnimations[Item.type] != null)
+            {
+                frame = Main.itemAnimations[Item.type].GetFrame(texture, Main.itemFrameCounter[whoAmI]);
+            }
+            else
+            {
+                frame = texture.Frame();
+            }
+
+            Vector2 frameOrigin = frame.Size() / 2f;
+            Vector2 offset = new Vector2(Item.width / 2 - frameOrigin.X, Item.height - frame.Height);
+            Vector2 drawPos = Item.position - Main.screenPosition + frameOrigin + offset;
+
+            float time = Main.GlobalTimeWrappedHourly;
+            float timer = Item.timeSinceItemSpawned / 240f + time * 0.04f;
+
+            time %= 4f;
+            time /= 2f;
+
+            if (time >= 1f)
+            {
+                time = 2f - time;
+            }
+
+            time = time * 0.5f + 0.5f;
+
+            for (float i = 0f; i < 1f; i += 0.25f)
+            {
+                float radians = (i + timer) * MathHelper.TwoPi;
+
+                spriteBatch.Draw(texture, drawPos + new Vector2(0f, 8f).RotatedBy(radians) * time, frame, new Color(253, 62, 3, 150), rotation, frameOrigin, scale, SpriteEffects.None, 0);
+            }
+
+            for (float i = 0f; i < 1f; i += 0.34f)
+            {
+                float radians = (i + timer) * MathHelper.TwoPi;
+
+                spriteBatch.Draw(texture, drawPos + new Vector2(0f, 4f).RotatedBy(radians) * time, frame, new Color(253, 62, 3, 177), rotation, frameOrigin, scale, SpriteEffects.None, 0);
+            }
+
+            return true;
+        }
+    }
+}

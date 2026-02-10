@@ -1,0 +1,89 @@
+Mods: {
+	DDmod: {
+		Tiles: {
+			StrengthenPlatform.MapEntry: Strengthening platform
+			鱼缸.MapEntry: Fish tank
+			HeartIngotTile.MapEntry: Heart Bar
+			HeartMineTile.MapEntry: Heart Ore
+			StarIngotTile.MapEntry: Star Bar
+			StarMineTile.MapEntry: Star Ore
+			锄过的土块.MapEntry: Hoeed Clods
+			治疗塔.MapEntry: Healing tower
+			晶凝书柜Tile.MapEntry: Solidified Crystal Bookcase
+			晶凝工作台Tile.MapEntry: Solidified Crystal Workbench
+			晶凝床Tile.MapEntry: Solidified Crystal Bed
+			晶凝桌Tile.MapEntry: Solidified Crystal Table
+			晶凝梳妆台Tile.MapEntry: Solidified Crystal Dresser
+			晶凝沙发Tile.MapEntry: Solidified Crystal Couch
+			晶凝浴缸Tile.MapEntry: Solidified Crystal Bathtub
+			晶凝烛台Tile.MapEntry: Solidified Crystal Candle holder
+			晶凝石块Tile.MapEntry: Solidified Crystal Stone
+			晶凝箱Tile.MapEntry: Solidified Crystal Chest
+			晶凝蜡烛Tile.MapEntry: Solidified Crystal Candle
+			晶凝钟Tile.MapEntry: Solidified Crystal Clock
+			晶凝钢琴Tile.MapEntry: Solidified Crystal Piano
+			晶凝门关Tile.MapEntry: Solidified Crystal Door
+			晶凝门开Tile.MapEntry: Solidified Crystal Door
+			绿岩锭Tile.MapEntry: Greenstone ingots
+			花岗岩科技书架Tile.MapEntry: Granite tech Bookcase
+			花岗岩科技工作台Tile.MapEntry: Granite tech Workbench
+			花岗岩科技床Tile.MapEntry: Granite tech Bed
+			花岗岩科技桌Tile.MapEntry: Granite tech Table
+			花岗岩科技梳妆台Tile.MapEntry: Granite tech Dresser
+			花岗岩科技熔炉Tile.MapEntry: Granite tech Furnace
+			花岗岩科技砧Tile.MapEntry: Granite tech Anvil
+			花岗岩科技箱Tile.MapEntry: Granite tech Chest
+			花岗岩科技钟Tile.MapEntry: Granite tech Clock
+			花岗岩科技钢琴Tile.MapEntry: Granite tech Piano
+			花岗岩科技门关Tile.MapEntry: Granite tech Door
+			花岗岩科技门开Tile.MapEntry: Granite tech Door
+			花岗岩核心晶体Tile.MapEntry: Granite core crystals
+			花岗岩科技砖Tile.MapEntry: Granite tech brick
+			花岗岩能量管道Tile.MapEntry: Granite fluorescent tube
+			测试物块.MapEntry: 测试物块
+			绿岩吞噬者Tile.MapEntry: Unfinished Devourer of Greenstone
+			ElixirFurnaceTile.MapEntry: Elixir Furnace
+			绿岩故障机器人Tile.MapEntry: Greenstone defect
+			报废的绿岩机器人Tile.MapEntry: Scrapped greenstone robots
+			绿岩之视凹槽Tile.MapEntry: Greenstone Vision groove
+			绿岩能量管道Tile.MapEntry: Greenstone fluorescent tube
+			绿岩锭预览图Tile.MapEntry: Preview of the greenstone bar
+			花岗岩能量管道Tile_Glow.MapEntry: Granite fluorescent tube
+			绿岩晶块Tile.MapEntry: Greenstone crystals
+			绿岩培养皿Tile.MapEntry: Greenstone Petri Dish
+			绿岩胶化舱Tile.MapEntry: Greenstone Bio-Gel Capsule
+			绿岩伺服器Tile.MapEntry: Greenstone Server
+			绿岩电脑Tile.MapEntry: Greenstone Computer
+			绿岩机器打印机Tile.MapEntry: Greenstone Replicator
+			绿岩监控机床Tile.MapEntry: Greenstone Observer machine tool
+			绿岩炮台Tile.MapEntry: Greenstone Battery
+			绿岩游戏机Tile.MapEntry: Greenstone game console
+			绿岩测验机Tile.MapEntry: Greenstone Quiz Machine
+			绿岩电弧炉Tile.MapEntry: Greenstone Electric arc furnace
+			绿岩警告牌Tile.MapEntry: Greenstone Warning signs
+			绿岩井关Tile.MapEntry: Greenstone transverse piston doors
+			绿岩井开Tile.MapEntry: Greenstone transverse piston doors
+			绿岩井锁Tile.MapEntry: Locked Greenstone transverse piston doors
+			绿岩活塞门关Tile.MapEntry: Greenstone Piston door
+			绿岩活塞门开Tile.MapEntry: Greenstone Piston door
+			绿岩活塞门锁Tile.MapEntry: Locked Greenstone Piston door
+			绿岩操作台Tile.MapEntry: Greenstone Console
+			蓝钢匣Tile.MapEntry: Blue steel box
+			钢匣Tile.MapEntry: Steel box
+			钢锭Tile.MapEntry: Steel Bar
+			绿岩存储仓Tile.MapEntry: Greenstone Storage Vault
+			绿岩干扰器Tile.MapEntry: Greenstone Disruptor
+		}
+
+		TilesText: {
+			未知: Unknown
+			成熟: Ripening
+			成熟2:
+				'''
+				Ripening
+				Right-click harvest
+				'''
+			阶段: Level
+		}
+	}
+}

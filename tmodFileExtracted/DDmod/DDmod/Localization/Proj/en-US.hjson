@@ -1,0 +1,729 @@
+Mods: {
+	DDmod: {
+		Projectiles: {
+			水壶Proj.DisplayName: Kettle
+			水滴.DisplayName: water
+			BlackHoleProj.DisplayName: Black hole
+			BossGreenLaser.DisplayName: Green Laser
+			BossGreenLaser2.DisplayName: Green Laser
+			BossHeart.DisplayName: Heart
+			BossHellfireball.DisplayName: Hellfireball
+			BossMagicStarCircle.DisplayName: Magic Star Circle
+			BossOrangeLaser.DisplayName: Orange Laser
+			BossStar.DisplayName: Star
+			BossStar2.DisplayName: Star
+			EyeofCthulhuBosssProj.DisplayName: Eye of Cthulhu
+			WitheringLight.DisplayName: Withering Light
+			歼灭者导弹爆炸.DisplayName: Explode
+			歼灭者导弹.DisplayName: Annihilator Missiles
+			狱火小蛇.DisplayName: Eater of Corrosion
+			Devil_SlimeFireworks.DisplayName: Devil Slime Fireworks
+			Devil_Slime.DisplayName: Devil Slime
+			NaturalLight.DisplayName: Natural Light
+			AmberBullets.DisplayName: Amber Bullets
+			AmethystBullets.DisplayName: Amethyst Bullets
+			BloodBomb.DisplayName: Blood Bomb
+			BookofSkulls.DisplayName: Book of Skulls
+			CrystalStorm.DisplayName: Crystal Storm
+			CursedFlames.DisplayName: Cursed Flames
+			DemonScythe.DisplayName: Demon Scythe
+			GoldenShower.DisplayName: Golden Shower
+			LunarFlareBook.DisplayName: Lunar Flare Book
+			MagnetSphere.DisplayName: Magnet Sphere
+			RazorbladeTyphoon.DisplayName: Razorblade Typhoon
+			ShadowBall.DisplayName: Shadow Ball
+			ShadowBook.DisplayName: Shadow Book
+			WaterBolt.DisplayName: Water Bolt
+			CorrosiveBullet.DisplayName: Corrosive Bullet
+			CrescentMoon.DisplayName: Crescent Moon
+			CrystalBullet.DisplayName: Crystal Bullet
+			CrystalThorn.DisplayName: Crystal thorn
+			CursetheWallFire.DisplayName: Curse the Wall of Fire
+			DiamondBullet.DisplayName: Diamond Bullet
+			EmeraldBullets.DisplayName: Emerald Bullets
+			ErosionLaser.DisplayName: Erosion Laser
+			ForestBullets.DisplayName: Forest Bullets
+			GreenLaser.DisplayName: Green Laser
+			MeteorLaserGun.DisplayName: Meteor Laser Gun
+			Meteor.DisplayName: Meteor
+			LceBombs.DisplayName: Ice Bombs
+			Lightning.DisplayName: Lightning
+			MagicAcorn.DisplayName: Acorn
+			MagicElectric.DisplayName: Electric
+			MagicElectric2.DisplayName: Electric
+			MagicExcaliburProj.DisplayName: Excalibur
+			MagicHeart.DisplayName: Heart
+			MagicSapling.DisplayName: Sapling
+			MagicStar.DisplayName: Star
+			MagicStar2.DisplayName: Star
+			MagicStarCircle.DisplayName: Magic Star Circle
+			Moonlight.DisplayName: Moonlight
+			RubyBullets.DisplayName: Ruby Bullets
+			SapphireBullet.DisplayName: Sapphire Bullet
+			ShadowBullet.DisplayName: Shadow Bullet
+			ShadowTentacles.DisplayName: Shadow Tentacles
+			SmallMeteors.DisplayName: Small Meteors
+			Sparking.DisplayName: Sparking
+			AcornStaff.DisplayName: Acorn Staff
+			AmberStaff.DisplayName: Amber Staff
+			AmethystStaff.DisplayName: Amethyst Staff
+			AquaScepter.DisplayName: Aqua Scepter
+			BatScepter.DisplayName: Bat Scepter
+			BlizzardFormation.DisplayName: Blizzard Formation
+			BlizzardStaff.DisplayName: Blizzard Staff
+			BloodStaff.DisplayName: Blood Staff
+			BurningFireball.DisplayName: Burning Fireball
+			ClingerFormation.DisplayName: Clinger Formation
+			ClingerStaff.DisplayName: Clinger Staff
+			CorruptionStaff.DisplayName: Corruption Staff
+			CrackedSky.DisplayName: Cracked Sky
+			CrystalSerpent.DisplayName: Crystal Serpent
+			CrystalSerpentFormation.DisplayName: Crystal Serpent Formation
+			CrystalSerpentGhosting.DisplayName: Crystal Serpent Ghosting
+			CrystalVileShard.DisplayName: Crystal Vile Shard
+			DiamondStaff.DisplayName: Diamond Staff
+			EmeraldStaff.DisplayName: Emerald Staff
+			Flamelash.DisplayName: Flamelash
+			FlamelashFormation.DisplayName: Flamelash Formation
+			FlameStaff.DisplayName: Flame Staff
+			FlowerofFire.DisplayName: Flower of Fire
+			ForestWoodenMagicwand.DisplayName: Forest Wooden Magicwand
+			FrostStaff.DisplayName: Frost Staff
+			HallowedFormation.DisplayName: Hallowed Formation
+			HallowedStaff.DisplayName: Hallowed Staff
+			HeartStaff.DisplayName: Heart Staff
+			InfernoFork.DisplayName: Inferno Fork
+			InfernoForkFormation.DisplayName: Inferno Fork Formation
+			MagicDagger.DisplayName: Magic Dagger
+			MagicElectric3.DisplayName: Electric
+			MagicMissile.DisplayName: Magic Missile
+			MagicMissileFormation.DisplayName: Magic Missile Formation
+			MeteorFormation.DisplayName: Meteor Formation
+			MeteorStaff.DisplayName: Meteor Staff
+			NettleBurst.DisplayName: Nettle Burst
+			NettleBurstFormation.DisplayName: Nettle Burst Formation
+			PillarOfFire.DisplayName: Pillar of fire
+			PoisonStaff.DisplayName: Poison Staff
+			RainbowRod.DisplayName: Rainbow Rod
+			RainbowRodFormation.DisplayName: Rainbow Rod Formation
+			RubyStaff.DisplayName: Ruby Staff
+			SapphireStaff.DisplayName: Sapphire Staff
+			ShadowbeamStaff.DisplayName: Shadowbeam Staff
+			ShadowFireball.DisplayName: Shadow Fireball
+			ShadowFlameHexDoll.DisplayName: Shadow Flame Hex Doll
+			ShadowFlamePillar.DisplayName: Shadow Flame Pillar
+			ShadowFlameStaff.DisplayName: Shadow Flame Staff
+			ShadowFlower.DisplayName: Shadow Flower
+			SkyFracture.DisplayName: Sky Fracture
+			SkyFractureFormation.DisplayName: Sky Fracture Formation
+			SoulDrain.DisplayName: Soul Drain
+			SpectreFormation.DisplayName: Spectre Formation
+			SpectreStaff.DisplayName: Spectre Staff
+			StarStaff.DisplayName: Star Staff
+			Starwand.DisplayName: Starwand
+			ThunderStaff.DisplayName: Thunder Staff
+			TopazStaff.DisplayName: Topaz Staff
+			UnholyFormation.DisplayName: Unholy Formation
+			UnholyTrident.DisplayName: Unholy Trident
+			VenomStaff.DisplayName: Venom Staff
+			Vilethorn.DisplayName: Vilethorn
+			WandofSparking.DisplayName: Wandof Sparking
+			狱火杖Proj.DisplayName: Hellfire Staff
+			SuckBloodPlayer.DisplayName: Suck Blood
+			TopazBullet.DisplayName: Topaz Bullet
+			VilethornBullet.DisplayName: Vilethorn
+			VioletLaser.DisplayName: Violet Laser
+			测试蠕虫弹幕.DisplayName: 测试蠕虫弹幕
+			魔法狱火小蛇.DisplayName: Eater of Corrosion
+			AmethystBeam.DisplayName: Amethyst Beam
+			BrokenHeart.DisplayName: Heart Breaker
+			CorruptionBall.DisplayName: Corruption Ball
+			FragmentOfHeart.DisplayName: Fragment Of Heart
+			狱火链刃Proj.DisplayName: Hellfire Chain Blade
+			Blaze.DisplayName: Blaze
+			BloodButcherer.DisplayName: Blood Butcherer
+			ShadowOfTheDevilProj.DisplayName: Shadow of the Devil
+			流星飞盘.DisplayName: Meteor Frisbee
+			流星飞盘2.DisplayName: Meteor Frisbee
+			BProj.DisplayName: B
+			DiamondBeam.DisplayName: Diamond Beam
+			EmeraldBeam.DisplayName: Emerald Beam
+			ExcaliburProj.DisplayName: Excalibur
+			Excalibur.DisplayName: Excalibur
+			FlameExplosion.DisplayName: Explosion
+			GoblinDagger.DisplayName: Goblin Dagger
+			泰拉闪电.DisplayName: Terra Electric
+			乌木飞刀Proj.DisplayName: Ebon Wood Throwing Knife
+			刺草Proj.DisplayName: Thornweed
+			力量之魂.DisplayName: Soul of Power
+			圣刃Proj.DisplayName: Holy Blade
+			夜刃Proj.DisplayName: Night Blade
+			孢子.DisplayName: Spore
+			寒霜飞刀Proj.DisplayName: Ice Throwing Knife
+			山铜花瓣.DisplayName: Petal
+			山铜飞刀Proj.DisplayName: Orichalcum Throwing Knife
+			星空Proj.DisplayName: Starry sky
+			暗影木飞刀Proj.DisplayName: Shade Wood Throwing Knife
+			木制飞刀Proj.DisplayName: Wood Throwing Knife
+			棕榈木飞刀Proj.DisplayName: Palm Wood Throwing Knife
+			泰拉之锋Proj.DisplayName: Terra Throwing Knife
+			流星投刀Proj.DisplayName: Meteor throwing knife
+			火焰.DisplayName: Flame
+			烈焰飞刀Proj.DisplayName: Flaming Flying knives
+			珍珠木飞刀Proj.DisplayName: Pearl Wood Throwing Knife
+			真圣刃2Proj.DisplayName: True Holy Blade
+			真圣刃Proj.DisplayName: True Holy Blade
+			真夜刃Proj.DisplayName: True Night Blade
+			秘银能量.DisplayName: Mythril energy
+			秘银飞刀Proj.DisplayName: Mythril Throwing Knife
+			精金飞刀Proj.DisplayName: Adamantite Throwing Knife
+			红木飞刀Proj.DisplayName: RichMahogany Throwing Knife
+			花斩.DisplayName: Flower Slash
+			血猩獠牙Proj.DisplayName: Bloody Tooth
+			远古短刀Proj.DisplayName: Ancient short knives
+			金制飞刀Proj.DisplayName: Gold Throwing Knife
+			针叶木飞刀Proj.DisplayName: Borreal Wood Throwing Knife
+			钛金飞刀Proj.DisplayName: Titanium Throwing Knife
+			钛金飞刀碎片.DisplayName: Titanium throwing knife fragments
+			钨金飞刀Proj.DisplayName: Tungsten Throwing Knife
+			钯金心.DisplayName: Palladium Heart
+			钯金飞刀Proj.DisplayName: Palladium Throwing Knife
+			钴蓝小刀Proj.DisplayName: Cobalt penknife
+			钴蓝能量.DisplayName: Cobalt energy
+			铁制飞刀Proj.DisplayName: Iron Throwing Knife
+			铂金飞刀Proj.DisplayName: Platinum Throwing Knife
+			铅制飞刀Proj.DisplayName: Lead Throwing Knife
+			铜制飞刀Proj.DisplayName: Copper Throwing Knife
+			银制飞刀Proj.DisplayName: Silver Throwing Knife
+			锡制飞刀Proj.DisplayName: Tin Throwing Knife
+			魔金飞刀Proj.DisplayName: Fear of Light
+			FragileHeartOfLife.DisplayName: Fragile Heart of Life
+			HellfireBlaze.DisplayName: Hellfire Blaze
+			InfluxWaver.DisplayName: Influx Waver
+			LightNight.DisplayName: Enhanced special effects
+			LightsBane.DisplayName: Lights Bane
+			LightsBaneCut.DisplayName: Lights Bane cut
+			MagicStarCircleMelee.DisplayName: Magic Star Circle
+			MagicStarMelee.DisplayName: Star
+			MeleeAcorn.DisplayName: Acorn
+			MeleeHeart.DisplayName: Heart
+			MeleeSuckBloodPlayer.DisplayName: Suck Blood
+			MeteorSwordQi.DisplayName: Meteor Sword Qi
+			RubyBeam.DisplayName: Ruby Beam
+			SapphireBeam.DisplayName: Sapphire Beam
+			ShadowBlaze.DisplayName: Shadow Blaze
+			Sheet222.DisplayName: Sheet222
+			闪电.DisplayName: Electric
+			ShadowSpear.DisplayName: Shadow Spear
+			冈格尼尔Proj.DisplayName: Gunganir
+			冈格尼尔弹幕.DisplayName: Gunganir
+			木制投矛Proj.DisplayName: Wooden spear throwing
+			Spikes.DisplayName: Spikes
+			AmberSword.DisplayName: Amber Sword
+			AmethystSword.DisplayName: Amethyst Sword
+			WarAxeoftheNight.DisplayName: War Axeofthe Night
+			熔岩战斧Proj.DisplayName: Lava Tomahawk
+			BladeofGrass.DisplayName: Blade of Grass
+			BluePhaseblade.DisplayName: Blue Phaseblade
+			BluePhasesaber.DisplayName: Blue Phasesaber
+			BreakerBlade.DisplayName: Breaker Blade
+			DeathSickle.DisplayName: Death Sickle
+			DiamondSword.DisplayName: Diamond Sword
+			EmeraldSword.DisplayName: Emerald Sword
+			FieryGreatsword.DisplayName: Fiery Greatsword
+			GlobalSlash.DisplayName: Global Slash
+			GlobalSword.DisplayName: Global Sword
+			GreenPhaseblade.DisplayName: Green Phaseblade
+			GreenPhasesaber.DisplayName: Green Phasesaber
+			FleshGrinder.DisplayName: Flesh Grinder
+			TheBreaker.DisplayName: The Breaker
+			Katana.DisplayName: Katana
+			MagicStarSword.DisplayName: Magic Star Sword
+			MeteorShortSword.DisplayName: Meteor Short Sword
+			Muramasa.DisplayName: Muramasa
+			MuramasaSlash.DisplayName: Muramasa Slash
+			NightsEdge.DisplayName: Nights Edge
+			NightsSlash.DisplayName: Nights Slash
+			OrangePhaseblade.DisplayName: Orange Phaseblade
+			OrangePhasesaber.DisplayName: Orange Phasesaber
+			PurplePhaseblade.DisplayName: Purple Phaseblade
+			PurplePhasesaber.DisplayName: Purple Phasesaber
+			RedPhaseblade.DisplayName: Red Phaseblade
+			RedPhasesaber.DisplayName: Red Phasesaber
+			RubySword.DisplayName: Ruby Sword
+			SapphireSword.DisplayName: Sapphire Sword
+			ShadowFlameSword.DisplayName: Shadow Flame Sword
+			Slash.DisplayName: Slash
+			Tachi.DisplayName: Tachi
+			TerraBlade.DisplayName: Terra Blade
+			TerraSlash.DisplayName: Terra Slash
+			ToothOfTheEye.DisplayName: Tooth of the Eye
+			TopazSword.DisplayName: Topaz Sword
+			TrueBloodButcherer.DisplayName: True Blood Butcherer
+			TrueExcalibur.DisplayName: True Excalibur
+			TrueNightsEdge.DisplayName: True Nights Edge
+			TrueNightsSlash.DisplayName: True Nights Slash
+			WhitePhaseblade.DisplayName: White Phaseblade
+			WhitePhasesaber.DisplayName: White Phasesaber
+			YellowPhaseblade.DisplayName: Yellow Phaseblade
+			YellowPhasesaber.DisplayName: Yellow Phasesaber
+			ZombieArm.DisplayName: Zombie Arm
+			ZombieSlash.DisplayName: Zombie Slash
+			哈迪斯之刃.DisplayName: Haste of Hades
+			哈迪斯剑气.DisplayName: Haste of Hades
+			TerraEdge.DisplayName: Terra edge
+			TopazBeam.DisplayName: Topaz Beam
+			TrueExcaliburProj.DisplayName: True Excalibur
+			TrueNightBlade.DisplayName: True Night Blade
+			胡萝卜.DisplayName: Carrot
+			ServantOfTheHeart.DisplayName: Servant of the Heart
+			ChildOfTheStars.DisplayName: Child of the Stars
+			SmallMeteorDigger.DisplayName: Small Meteor Digger
+			SonOfTheLifeGuard.DisplayName: Son of the Life Guard
+			狱火蛇之子.DisplayName: Son of the Serpent of Hellfire
+			stupidCatSlime.DisplayName: stupid Cat Slime
+			SycamoreBunnySlime.DisplayName: Sycamore Bunny Slime
+			TairitsuSlime.DisplayName: Tairitsu Slime
+			PlayerItem.DisplayName: Player Item
+			ShadowWoodArrow.DisplayName: Shadow Wood Arrow
+			UnholyArrowRemnant.DisplayName: Unholy Arrow Remnant
+			VampiricArrow.DisplayName: Vampiric Arrow
+			ArrowofHeaven.DisplayName: Arrow of Heaven
+			BloodBullet.DisplayName: Blood Bullet
+			Daedalus.DisplayName: Daedalus
+			GlobalBow.DisplayName: Global Bow
+			MagicStarBow.DisplayName: Magic Star Bow
+			BrokenHeartArrow.DisplayName: Broken Heart Arrow
+			Electric.DisplayName: Electric
+			ElectricExplosion.DisplayName: Electric Explosion
+			MeteorRifle.DisplayName: Meteor Rifle
+			Musket.DisplayName: Musket
+			手枪2Proj.DisplayName: Pistol
+			迷你鲨2Proj.DisplayName: Gold Helmet
+			HeartArrow.DisplayName: Heart Arrow
+			HeartArrowFragment.DisplayName: Heart Arrow Fragment
+			HellBats.DisplayName: Hell Bats
+			Leaf.DisplayName: Leaf
+			MagicStarCircleRanged.DisplayName: Magic Star Circle
+			NaturalAcornArrows.DisplayName: Natural Acorn Arrows
+			PulseArrows.DisplayName: Pulse Arrows
+			RangedGreenLaser.DisplayName: Green Laser
+			RangedHeart.DisplayName: Heart
+			ShadowExplosion.DisplayName: Shadow Explosion
+			SpiritLeafArrow.DisplayName: Spirit Leaf Arrow
+			SuckBloodPlayer2.DisplayName: 吸血
+			TrueFrostArrows.DisplayName: True Frost Arrows
+			TrueShadowArrows.DisplayName: True Shadow Arrows
+			TrueUnholyArrow.DisplayName: True Unholy Arrow
+			TrueVampiricArrow.DisplayName: True Vampiric Arrow
+			化石箭.DisplayName: Fossil Arrow
+			叶箭.DisplayName: Leaf Arrow
+			永夜箭.DisplayName: Night Arrow
+			泰拉箭.DisplayName: Terra Arrow
+			泰拉箭幻影.DisplayName: Terra Arrow
+			泰拉.DisplayName: 泰拉
+			真永夜箭.DisplayName: True Night Arrow
+			真神箭.DisplayName: True Divine arrow
+			真神箭2.DisplayName: True Divine arrow
+			真神箭3.DisplayName: True Divine arrow
+			神箭.DisplayName: Divine Arrow
+			神箭2.DisplayName: Divine Arrow
+			远古能量.DisplayName: Ancient energy
+			远古魔法箭.DisplayName: Ancient magic arrows
+			远程枯萎光束.DisplayName: Wilted beam
+			远程枯萎橡果.DisplayName: Wilted acorns
+			远程狱火球.DisplayName: Hellfireball
+			MeteorExcavator.DisplayName: Meteor Excavator
+			Heartbreaker.DisplayName: Heartbreaker
+			DeadlyFlame.DisplayName: Deadly Flame
+			EyeFire.DisplayName: Eye Fire
+			Fan.DisplayName: Fan
+			FireBall.DisplayName: Fire Ball
+			FireballExplosion.DisplayName: Explosion
+			MagicStarCircleMini.DisplayName: Magic Star Circle
+			AcornSpiritMini.DisplayName: Acorn Spirit
+			BloodWorm.DisplayName: Bloodworm
+			CopperSword.DisplayName: Copper Sword
+			EaterOfCorrosion.DisplayName: Eater of Corrosion
+			BottleCannon.DisplayName: Bottle Cannon
+			FanTower.DisplayName: Fan Tower
+			IronSpikeBall.DisplayName: Iron Spike Ball
+			LeadSpikeBall.DisplayName: Lead Spike Ball
+			LeafCrystal.DisplayName: Leaf Crystal
+			MagicStarMini.DisplayName: Magic Star
+			MeteorFighter.DisplayName: Meteor Fighter
+			MeteorYshapedDrone.DisplayName: Meteor Y-shaped drone
+			ShadowImp.DisplayName: Shadowflame Imp
+			ShadowSkull.DisplayName: Shadowflame Skull
+			TinSword.DisplayName: Tin Sword
+			SForestBullets.DisplayName: Forest Bullets
+			SGreenLaser.DisplayName: Green Laser
+			ShadowFireBall.DisplayName: Shadow Fire Ball
+			ShadowFireballExplosion.DisplayName: Shadow Explosion
+			ShadowWave.DisplayName: Shadow Wave
+			SummonAcorn.DisplayName: Acorn
+			SummonBubble.DisplayName: Bubble
+			SummonHeart.DisplayName: Heart
+			SummonNaturalLight.DisplayName: Natural Light
+			SummonStar.DisplayName: Star
+			TerraShit.DisplayName: Terra Shit
+			AcornWhip.DisplayName: Acorn Whip
+			HeartWhip.DisplayName: Heart Whip
+			MagicStarWhip.DisplayName: Magic Star Whip
+			MeteorWhip.DisplayName: Meteor Whip
+			狱火鞭Proj.DisplayName: Hellfire Whip
+			狱火爆炸Proj.DisplayName: Hellfire Exploded
+			DeadLeavesSpirit.DisplayName: Dead Leaves Spirit
+			EnchantedVoodooDoll.DisplayName: Enchanted Voodoo Doll
+			EyeTeeth.DisplayName: Eye Teeth
+			GhostFireLantern.DisplayName: Ghost Fire Lantern
+			HunyuanPearlUmbrella.DisplayName: Hunyuan Pearl Umbrella
+			LegendaryGel.DisplayName: Legendary Gel
+			MiniSlimeCrown.DisplayName: Mini Slime Crown
+			ShadowNecklace.DisplayName: Shadow Necklace
+			WoodSpiritSword.DisplayName: Wood Spirit Sword
+			地狱葫芦Proj.DisplayName: Hell Gourd
+			奇异的云Proj.DisplayName: Bizarre clouds
+			永恒冰晶Proj.DisplayName: Eternal ice crystals
+			玉净瓶Proj.DisplayName: Purifying bottles
+			Portals.DisplayName: Portals
+			NightExplode.DisplayName: Night Explosion
+			TrueNightExplode.DisplayName: True Night Explosion
+			TerraExplode.DisplayName: Terra Explosion
+			Frostspark.DisplayName: Frost Spark
+			结霜法杖.DisplayName: Wand of Frosting
+			叶绿飞刀Proj.DisplayName: Leaf Throwing Knife
+			仙人掌箭.DisplayName: Cactus Arrows
+			仙人掌刺.DisplayName: Cactus Thorn
+			仙人掌杖Proj.DisplayName: Cactus Staff
+			魔法仙人掌刺.DisplayName: Cactus Thorn
+			猪鲨.DisplayName: Pig Sharks
+			石像弹.DisplayName: Stone Statue Bullets
+			石魔箭.DisplayName: Stone Magic Arrow
+			神庙探针.DisplayName: Temple Probes
+			S石魔弹.DisplayName: Stone Statue Bullets
+			飞鱼镖Proj.DisplayName: Fishdarts
+			潮汐之泪proj.DisplayName: Tears of the Tides
+			冰与火之刃Proj.DisplayName: Blades of Ice and Fire
+			耀斑双刃Proj.DisplayName: 耀斑双刃
+			叶木双剑Proj.DisplayName: Leaf wood double sword
+			白切双剑Proj.DisplayName: White cut double sword
+			SwordWave.DisplayName: Sword Wave
+			光束剑.DisplayName: Beam Sword
+			蜂巢箭.DisplayName: Honeycomb arrows
+			火束箭.DisplayName: Firebeam Arrows
+			幻影弓.DisplayName: Phantom Bow
+			樱之箭.DisplayName: Sakura's Arrow
+			火龙波.DisplayName: Faucet
+			水箭.DisplayName: Water arrows
+			海啸.DisplayName: Tsunami
+			叶绿光箭.DisplayName: Chlorophyte Light Arrow
+			夜光蘑菇.DisplayName: Glowing mushrooms
+			蘑菇弹.DisplayName: Glowing Mushroom Bullets
+			真菌双剑Proj.DisplayName: Fungal twin swords
+			Boss夜光蘑菇.DisplayName: Glowing mushrooms
+			Boss蘑菇弹.DisplayName: Glowing Mushroom Bullets
+			夜光蘑菇炸弹Proj.DisplayName: Glowing Mushroom Bomb
+			夜光蘑菇杖Proj.DisplayName: Glowing Mushroom Staff
+			鬼牙.DisplayName: Ghost Fangs
+			花岗岩能量.DisplayName: Granite energy
+			鬼斩.DisplayName: Ghost Slash
+			鬼齿.DisplayName: Ghost teeth
+			血弹.DisplayName: Blood bullets
+			BatScepterFormation.DisplayName: Bat Scepter Formation
+			Boss鬼牙.DisplayName: Ghost Fangs
+			鬼牙夺魂杖Proj.DisplayName: Ghostfang Reaver Staff
+			鬼牙弹.DisplayName: Ghostfang Bullet
+			鬼牙仆从.DisplayName: Ghostfang minions
+			鬼牙Proj.DisplayName: Ghost Fangs
+			诡异肉块Proj.DisplayName: Spooky pieces of meat
+			Boss幽魂弹.DisplayName: Wraith Bullet
+			幽魂之杖Proj.DisplayName: Wraith Staff
+			幽魂弹.DisplayName: Wraith Bullet
+			魔力菇Proj.DisplayName: Mana mushrooms
+			Boss血弹.DisplayName: Blood bullets
+			蘑菇短剑Proj.DisplayName: Mushroom dagger
+			蘑菇鞭Proj.DisplayName: Mushroom whip
+			蘑菇.DisplayName: mushroom
+			蘑菇箭.DisplayName: Mushroom arrows
+			蘑菇杖Proj.DisplayName: Mushroom staff
+			蘑菇飞刀Proj.DisplayName: Mushroom Throwing Knife
+			眼球怪.DisplayName: Eyeball monsters
+			血珠.DisplayName: Blood beads
+			花岗岩能量回旋镖Proj.DisplayName: Granite energy boomerang
+			绿岩能量.DisplayName: Greenstone energy
+			绿岩三角.DisplayName: Greenstone Triangle
+			绿岩导弹.DisplayName: Greenstone missiles
+			绿岩导弹爆炸.DisplayName: Greenstone explosion
+			绿岩弹.DisplayName: Greenstone Bomb
+			Boss绿岩能量.DisplayName: Greenstone energy
+			绿岩回旋刃Proj.DisplayName: Greenstone Whirling Blade
+			绿岩侦察机.DisplayName: Greenstone reconnaissance aircraft
+			绿岩鞭Proj.DisplayName: Greenstone whip
+			绿岩手提灯Proj.DisplayName: Greenstone Portable Lamp
+			绿岩双刃Proj.DisplayName: Greenstone Twin Blades
+			Boss绿岩导弹.DisplayName: Greenstone missiles
+			Boss绿岩导弹爆炸.DisplayName: Greenstone explosion
+			绿岩双剑Proj.DisplayName: Greenstone Twin Swords
+			绿岩步枪Proj.DisplayName: Greenstone Rifles
+			微型绿岩之视.DisplayName: Miniature Greenstone Vision
+			绿岩导弹发射器Proj.DisplayName: Greenstone missile launcher
+			绿岩能源法杖Proj.DisplayName: Greenstone Energy Staff
+			发条步枪.DisplayName: Clockwork rifles
+			UPProj.DisplayName: UP
+			Boss心心.DisplayName: heart
+			Boss星星.DisplayName: star
+			心心.DisplayName: heart
+			星星.DisplayName: star
+			寒冰斩.DisplayName: Ice Slash
+			花岗岩激光.DisplayName: Granite laser
+			Boss水球.DisplayName: water polo
+			骨刺仆从.DisplayName: Bone Spur Minions
+			血嘴仆从.DisplayName: Bloodmouth minions
+			血眼仆从.DisplayName: Blood-Eyed Minions
+			血箭.DisplayName: Blood Arrows
+			血.DisplayName: 血
+			公海幽浮.DisplayName: Male ghost jellyfish
+			母海幽浮.DisplayName: Female ghost jellyfish
+			水球.DisplayName: water polo
+			封魔尖锥.DisplayName: Demon Sealing Awl
+			海幽浮法杖Proj.DisplayName: Ghost Jellyfish Staff
+			魔法水母.DisplayName: Magic jellyfish
+			BossArousalHeart.DisplayName: heart
+			BossArousalStar.DisplayName: star
+			圣金剑.DisplayName: Holy Golden Sword
+			Boss大血弹.DisplayName: Big Blood Bullet
+			发光蘑菇崽.DisplayName: Glowing mushroom cubs
+			苍穹原典Proj.DisplayName: The Firmament Original
+			ArousalStar.DisplayName: star
+			苍穹守卫幻象.DisplayName: Visions of the Sky Guardian
+			星象.DisplayName: Astrology
+			MeleeArousalHeart.DisplayName: heart
+			大地之锋Proj.DisplayName: Earth's Edge
+			晶凝蓄能炮Proj.DisplayName: Crystalline Energy Cannon
+			RangedArousalHeart.DisplayName: heart
+			海幽浮鱼钩.DisplayName: Ghost jellyfish hook
+			Boss闪电.DisplayName: lightning
+			毒刺.DisplayName: stinger
+			火山爆炸.DisplayName: Volcanic explosions
+			永夜弹.DisplayName: Night Bullet
+			永夜爆炸.DisplayName: Night explosions
+			永夜.DisplayName: Night
+			泰拉弹.DisplayName: Terra Bullet
+			泰拉爆炸.DisplayName: Night explosions
+			Boss远古能量弹.DisplayName: Ancient Energy Bullet
+			Boss叶箭.DisplayName: Leaf arrows
+			Boss炼狱弹.DisplayName: Infernal Bombs
+			阴影波.DisplayName: Shadow waves
+			猩红弹Proj.DisplayName: Crimson Bullets
+			魔金弹Proj.DisplayName: Demonite Bullets
+			狱火弹Proj.DisplayName: Inferno Bullets
+			Boss大魔唾液.DisplayName: Great Demon Saliva
+			Boss魔唾液.DisplayName: Demon saliva
+			Boss妖精弹.DisplayName: Pixie bullets
+			木制剑盾Proj.DisplayName: Wooden sword and shield
+			史莱姆剑盾Proj.DisplayName: Slime Sword and Shield
+			格挡粒子Proj.DisplayName: Block particles
+			史莱姆尖刺.DisplayName: Slime Spikes
+			蜂巢剑盾Proj.DisplayName: Hive Sword and Shield
+			机械魔眼剑盾Proj.DisplayName: Mechanical Eye Sword and Shield
+			咒火弹.DisplayName: Cursed Fire Bullet
+			咒火爆炸.DisplayName: Cursed Fire explodes
+			激光斩.DisplayName: Laser Slash
+			白切剑盾Proj.DisplayName: White cut sword and shield
+			白切剑杖Proj.DisplayName: White cut sword staff
+			白切剑杖法阵.DisplayName: White cut sword staff Circle
+			白切剑Proj.DisplayName: White cut sword
+			魔刺.DisplayName: Devil's Thorn
+			白切灵剑Proj.DisplayName: White Cut Spirit Sword
+			白切神剑.DisplayName: White cut Excalibur
+			白切神箭.DisplayName: White cut magic arrow
+			泰拉魔刃Proj.DisplayName: Terragrim's Blade
+			水晶刺.DisplayName: Crystal Thorn
+			爆裂荆棘.DisplayName: Burst Thorns
+			宣花葫芦Proj.DisplayName: Xuanhua gourd
+			薄绿.DisplayName: Mint
+			迷失之眼.DisplayName: Lost Eyes
+			金毛幼鸟.DisplayName: Golden juvenile birds
+			女妖飞羽.DisplayName: Banshee Feather
+			治愈飞羽.DisplayName: Healing Feather
+			永夜魔杖Proj.DisplayName: Eternal Night Staff
+			永夜魔弹.DisplayName: Eternal Night Projectile
+			TrueHallowedFormation.DisplayName: True Hallowed Formation
+			真神圣法杖Proj.DisplayName: True Hallowed Scepter
+			魔法神圣弹.DisplayName: Magic Holy Projectile
+			真永夜魔弹.DisplayName: True Eternal Night Projectile
+			真永夜魔杖Proj.DisplayName: True Eternal Night Staff
+			泰拉之穹Formation.DisplayName: Terra Dome
+			泰拉之穹Proj.DisplayName: Terra Dome
+			丛林权杖Proj.DisplayName: Jungle Scepter
+			丛林权杖法阵.DisplayName: Jungle Scepter Formation
+			魔法叶.DisplayName: Magic Leaf
+			灵剑.DisplayName: Spirit Sword
+			H绿激光.DisplayName: Green Laser
+			流星信号.DisplayName: Meteor Signal
+			破坏者激光.DisplayName: Destroyer Laser
+			陨石弹.DisplayName: Meteor Projectile
+			破坏者激光2.DisplayName: Destroyer Laser 2
+			破坏者激光束.DisplayName: Destroyer Laser Beam
+			流星剑盾Proj.DisplayName: Meteor Sword Shield
+			Boss幽灵鬼火.DisplayName: Boss Ghost Will-o'-the-wisp
+			幽灵鬼火.DisplayName: Ghost Will-o'-the-wisp
+			流星锯刃.DisplayName: Meteor Saw Blade
+			破坏者激光枪Proj.DisplayName: Destroyer Laser Gun
+			魔法破坏者激光.DisplayName: Magic Destroyer Laser
+			魔法破坏者激光束.DisplayName: Magic Destroyer Laser Beam
+			绿岩打印.DisplayName: Greenrock Print
+			绿岩激光.DisplayName: Greenrock Laser
+			绿岩炮台.DisplayName: Greenrock Turret
+			琥珀镰刃.DisplayName: Amber Scythe
+			血雨.DisplayName: Blood Rain
+			Boss陨石弹.DisplayName: Boss Meteor Projectile
+			流星炮Proj.DisplayName: Meteor Cannon
+			Boss破坏者激光.DisplayName: Boss Destroyer Laser
+			Boss破坏者激光2.DisplayName: Boss Destroyer Laser
+			流星破坏球.DisplayName: Meteor Breaker Ball
+			燧发枪.DisplayName: Flintlock
+			凤凰爆破枪.DisplayName: Phoenix Blaster
+			链式机枪.DisplayName: Chain Gun
+			三发猎枪.DisplayName: Triple-barrel Shotgun
+			乌兹冲锋枪.DisplayName: Uzi Submachine Gun
+			四管霰弹枪.DisplayName: Four-barrel Shotgun
+			太空海豚机枪.DisplayName: Space Dolphin Machine Gun
+			夺命枪.DisplayName: Death-dealing Gun
+			左轮手枪.DisplayName: Revolver
+			巨兽鲨.DisplayName: Megashark
+			战术霰弹枪.DisplayName: Tactical Shotgun
+			狙击步枪.DisplayName: Sniper Rifle
+			玛瑙爆破枪.DisplayName: Onyx Blaster
+			红莱德枪.DisplayName: Red Ryder Gun
+			维纳斯万能枪.DisplayName: Venus Magnum
+			霰弹枪.DisplayName: Shotgun
+			鳄鱼机关枪.DisplayName: Gatligator
+			维纳斯能量.DisplayName: Venus Energy
+			Boss机械橙激光.DisplayName: Boss Mechanical Orange Laser
+			Boss机械绿激光.DisplayName: Boss Mechanical Green Laser
+			微型流星破坏者.DisplayName: Mini Meteor Destroyer
+			叶绿枪.DisplayName: Chlorophyte Gun
+			叶绿枪Proj.DisplayName: Chlorophyte Gun Projectile
+			钨制手枪Proj.DisplayName: Tungsten Pistol
+			铜制手枪Proj.DisplayName: Copper Pistol
+			银制手枪Proj.DisplayName: Silver Pistol
+			锡制手枪Proj.DisplayName: Tin Pistol
+			Pistol.DisplayName: Pistol
+			铁制猎枪Proj.DisplayName: Iron Musket
+			铅制猎枪Proj.DisplayName: Lead Musket
+			Sniper.DisplayName: Sniper
+			金制狙击枪Proj.DisplayName: Gold Sniper Rifle
+			铂金狙击枪Proj.DisplayName: Platinum Sniper Rifle
+			钨制霰弹枪Proj.DisplayName: Tungsten Shotgun
+			银制霰弹枪Proj.DisplayName: Silver Shotgun
+			绿岩剑盾Proj.DisplayName: Greenrock Sword Shield
+			冰霜弹Proj.DisplayName: Frost Projectile
+			Rifle.DisplayName: Rifle
+			寒霜冲锋枪Proj.DisplayName: Frost Submachine Gun
+			Boss电雨.DisplayName: Boss Electric Rain
+			Boss电珠.DisplayName: Boss Electric Orb
+			受潮弹Proj.DisplayName: Dampened Projectile
+			恶魔猎手Proj.DisplayName: Demon Hunter
+			泣血Proj.DisplayName: Weeping Blood
+			Shotgun.DisplayName: Shotgun
+			山铜霰弹枪Proj.DisplayName: Orichalcum Shotgun
+			秘银双管猎枪Proj.DisplayName: Mythril Double-barrel
+			精金手枪Proj.DisplayName: Adamantite Pistol
+			钛金手枪Proj.DisplayName: Titanium Pistol
+			钯金枪Proj.DisplayName: Palladium Rifle
+			钴枪Proj.DisplayName: Cobalt Rifle
+			神圣霰弹枪Proj.DisplayName: Hallowed Shotgun
+			神圣弹Proj.DisplayName: Hallowed Projectile
+			神圣箭Proj.DisplayName: Hallowed Arrow
+			神圣裁决Proj.DisplayName: Hallowed Judgment
+			蘑菇子弹Proj.DisplayName: Mushroom Bullet
+			蘑菇狙击枪Proj.DisplayName: Mushroom Sniper Rifle
+			爆裂熔岩Proj.DisplayName: Explosive Lava
+			绿岩弹Proj.DisplayName: Greenrock Projectile
+			绿岩箭Proj.DisplayName: Greenrock Arrow
+			绿岩箭幻象.DisplayName: Greenrock Arrow Phantasm
+			绿岩狙击枪Proj.DisplayName: Greenrock Sniper Rifle
+			白切枪Proj.DisplayName: White Slash Gun
+			绿岩飞刀Proj.DisplayName: Greenrock Throwing Dagger
+			绿岩聚能炮Proj.DisplayName: Greenrock Focus Cannon
+			绿岩激光束.DisplayName: Greenrock Laser Beam
+			绿岩工程炮台.DisplayName: Greenrock Engineering Turret
+			S绿岩激光束.DisplayName: Greenrock Laser Beam
+			噩梦降临Proj.DisplayName: Nightmare Descent
+			染血之眼Proj.DisplayName: Bloodstained Eye
+			蜜蜂加特林Proj.DisplayName: Bee Gatling Gun
+			钴爆炸.DisplayName: Cobalt Explosion
+			Boss召唤闪电.DisplayName: Boss Summoned Lightning
+			引雷针Proj.DisplayName: Lightning Rod Projectile
+			土灵.DisplayName: Earth Spirit
+			土.DisplayName: Earth
+			风暴雨云.DisplayName: Storm Cloud
+			电雨.DisplayName: Electric Rain
+			雨.DisplayName: Rain
+			风暴计数器.DisplayName: Storm Counter
+			枪闪电.DisplayName: Gun Lightning
+			弓闪电.DisplayName: Bow Lightning
+			食人小草.DisplayName: Man-eating Sprout
+			牢中灵骷.DisplayName: Caged Spirit Skull
+			骷髅头.DisplayName: Skull
+			寒霜骷髅头.DisplayName: Frost Skull
+			寒霜矢.DisplayName: Frost Arrow
+			极寒领域.DisplayName: Frigid Domain
+			地狱魔首.DisplayName: Infernal Skull Lord
+			地狱火刃.DisplayName: Infernal Blaze Blade
+			地狱火刃2.DisplayName: Infernal Blaze Blade
+			火刃.DisplayName: Fire Blade
+			地狱骷髅头.DisplayName: Infernal Skull
+			夺命鬼魂.DisplayName: Soul Reaper
+			鬼魂.DisplayName: Ghost
+			术士召唤术.DisplayName: Warlock's Summoning Art
+			混沌球.DisplayName: Chaos Orb
+			暗影触手.DisplayName: Shadow Tentacle
+			暗影触手基座.DisplayName: Shadow Tentacle Base
+			Boss暗影火.DisplayName: Boss Shadowflame
+			诅咒双刃Proj.DisplayName: Cursed Dual Blades
+			暗影气刃.DisplayName: Shadow Aura Blade
+			苦罪囚链Proj.DisplayName: Chain of Torment
+			诅咒之魂.DisplayName: Cursed Soul
+			术士召唤术2.DisplayName: Warlock's Summoning Art
+			神血.DisplayName: Divine Blood
+			猩红触手.DisplayName: Crimson Tentacle
+			药王葫芦Proj.DisplayName: Medicinal Gourd
+			魔唾液.DisplayName: Magic Saliva
+			飞眼怪.DisplayName: Creeper
+			咒焰瞬光Proj.DisplayName: Cursed Blaze Instant Light
+			强化咒火弹Proj.DisplayName: Enhanced Cursed Fire Projectile
+			强化激光弹Proj.DisplayName: Enhanced Laser Projectile
+			机械蠕虫.DisplayName: Mechanical Worm
+			机械蠕虫计时器.DisplayName: Mechanical Worm Timer
+			机械激光.DisplayName: Laser
+			机械激光加特林Proj.DisplayName: Mechanical Laser Gatling
+			史莱姆链球Proj.DisplayName: Slime Flail
+			护心晶盾Proj.DisplayName: Heartward Crystal Shield
+			星辰炮Proj.DisplayName: Star Cannon
+			魔力巨星.DisplayName: Mana Giant Star
+			血肉之舌Proj.DisplayName: Flesh Tongue
+			烈阳光束.DisplayName: Solar Beam
+			星旋闪电.DisplayName: Vortex Lightning
+			星旋闪电球.DisplayName: Vortex Lightning Orb
+			星云幻梦Proj.DisplayName: Nebula Phantasm
+			星云幻梦ProjFormation.DisplayName: Nebula Phantasm Formation
+			星云火焰.DisplayName: Nebula Flame
+			星云之眼.DisplayName: Eye of the Nebula
+			星云弹.DisplayName: Nebula Projectile
+			星尘共鸣Proj.DisplayName: Stardust Resonance
+			星尘核心Proj.DisplayName: Stardust Core
+			魔法围巾.DisplayName: Magic Scarf
+			Boss烈阳光束.DisplayName: Solar Beam
+			Boss异星毒刺.DisplayName: Alien Stinger
+			星云触手.DisplayName: Nebula Tentacle
+			Boss星云光束.DisplayName: Nebula Beam
+			Boss星云弹.DisplayName: Nebula Projectile
+			Boss星尘光束.DisplayName: Stardust Beam
+			魔法泰拉弹.DisplayName: 魔法泰拉弹
+			橡果灵灯Proj.DisplayName: 橡果灵灯 Proj
+		}
+	}
+}

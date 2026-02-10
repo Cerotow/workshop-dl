@@ -1,0 +1,298 @@
+Mods: {
+	DDmod: {
+		BattlePet: {
+			迷失之眼: Lost Eyes
+			迷失之眼2: Killing Eye
+			迷失之眼3: Bloodstained Eyes
+			迷失之眼4: Bloodthirsty Eyes
+			金毛幼鸟: Golden juvenile birds
+			金毛幼鸟2: Rite Bird
+			金毛幼鸟3: canary
+			金毛幼鸟4: Golden Feather Demon
+			牢中灵骷: Caged Spirit Skull
+			牢中灵骷2: Bound Spectral Remains
+			牢中灵骷3: Undying War-Bones
+			牢中灵骷4: Meditative Mage-Skull
+			牢中灵骷5: Armored Bone Rider
+			牢中灵骷6: Infernal Skull-Lord
+			牢中灵骷7: Crimson Skeleton Oni
+			牢中灵骷8: Rust-Hex Sorcerer Skull
+		}
+
+		BattlePetText: {
+			可捕捉宠物: Pets can be captured
+			捕捉成功: Capture success
+			待命: await orders
+			战斗: fight
+			受伤: (Wounded)
+		}
+
+		BattlePetUI: {
+			常见: N
+			优秀: R
+			稀有: SR
+			罕见: SSR
+			珍稀: UR
+			技能解锁: Unlock at level {0}
+			放生: Discard
+			确定: Decision
+			确认放生: Are you sure you want to discard this little guy?
+			离开: He's gone from you forever...
+			出战: Fight
+			休息: Rest
+			重伤: This little guy has been seriously injured ....
+			初始生命: Original life
+			生命: Life
+			初始攻击: Original damage
+			攻击: Damage
+			初始防御: Original defense
+			防御: Defense
+			减伤: 减伤
+			经验: Exp
+			攻击模式: Melee
+			攻击模式2: Ranged
+			成长: Grow
+			原始属性:
+				'''
+				Original stat
+				Life:{0}(20%)
+				Damage:{1}(10%)
+				Defense:{2}(10%)
+				Each upgrade increases the stat based on the original stat
+				The original stat change each time you evolve
+				'''
+			最终攻击: Final damage
+			最终生命: Max life
+			最终防御: Final defense
+			经验需求: Experience required
+			降低: "[c/FF6464:{0}reduce{1}]"
+			增加: "[c/64FF64:{0}increase{1}]"
+			降低2: "[c/64FF64:{0}reduce{1}]"
+			增加2: "[c/FF6464:{0}increase{1}]"
+
+			性格: {
+				鲁莽: Reckless
+				胆小: Timid
+				强壮: Strong
+				勇敢: Brave
+				暴躁: Grumpy
+				活泼: lively
+				坚强: Be strong
+				倔强: Stubborn
+				耿直: frank
+			}
+		}
+
+		BattlePetSkill: {
+			未知: 未知技能
+			没做: 没做
+			强攻:
+				'''
+				      Enhanced damage
+				Passive: 20% increased Damage
+				'''
+			狂暴:
+				'''
+				Rage
+				Active: Increases your attack and speed for a short time
+				'''
+			嗜血:
+				'''
+				bloodthirsty
+				Passive: Deals 20% more damage to bleeding units and drains health
+				'''
+			嗜血幻象:
+				'''
+				Bloodthirsty illusions
+				Active: Creates an afterimage larger than self, increasing the size of the collision and inflicting bleeding
+				Rage continues to activate during the spell's effect, and goes on cooldown with it after it ends
+				'''
+			节能:
+				'''
+				energy conservation
+				Passive: 30% less experience required to level up
+				'''
+			飞羽:
+				'''
+				remex
+				Active: Fires feathers at enemies, dealing damage and reducing defense
+				'''
+			撕裂:
+				'''
+				tear
+				Passive: Inflicts a bleeding effect
+				'''
+			治愈神羽:
+				'''
+				Heal the god feather
+				Active: Fires the feather in a random direction, healing the player closest to the feather after a while
+				'''
+			#骷髅头技能
+			久战骸骨:
+				'''
+				[c/00FFFF:Veteran Bones]
+				Passive: Remains baptized by ancient battlefields, their final evolution form is full of unknowns.
+				'''
+			三重颅骨:
+				'''
+				[c/00FF00:Triple Skulls]
+				Active: Fires three homing skulls simultaneously to lock onto enemies.
+				'''
+			#进化后
+			#冥思骷髅
+			冥思:
+				'''
+				[c/00FFFF:Meditation]
+				Passive: Past life memories awakened, once a frost mage skilled in meditation.
+				HP reduced by 30%
+				Defense reduced by 30%
+				Damage increased by 20%
+				Switches to ranged attacks that slow enemies.
+				'''
+			寒霜颅骨:
+				'''
+				[c/00FF00:Multiple Frost Skulls]
+				Active: Fires multiple freezing skulls that freeze enemies in their path.
+				'''
+			寒霜领域:
+				'''
+				[c/00FFFF:Frost Aura]
+				Passive: Surrounded by an icy breath, slowing nearby enemies and projectiles.
+				'''
+			寒霜庇护:
+				'''
+				[c/FF0000:Frost Sanctuary]
+				Active: Grants the player the Frost Aura effect for a duration, slowing nearby enemies and projectiles.
+				'''
+			#装甲骷髅
+			装甲:
+				'''
+				[c/00FFFF:Armor]
+				Passive: Past life memories awakened, once a battle-hardened fearless soldier.
+				HP increased by 20%
+				Defense increased by 20%
+				Damage increased by 10%
+				Movement speed reduced.
+				'''
+			无畏冲锋:
+				'''
+				[c/00FF00:Dauntless Charge]
+				Active: A burst of accelerated charge, increasing own damage and causing bleeding on enemies.
+				'''
+			坚韧盔甲:
+				'''
+				[c/00FFFF:Resilient Armor]
+				Passive: Gains 25% damage reduction.
+				'''
+			固若金汤:
+				'''
+				[c/FF0000:Impregnable Defense]
+				Active: Grants the player {0} extra defense for 20 seconds.
+				'''
+			狱炎:
+				'''
+				[c/00FFFF:Infernal Blaze]
+				Passive: Hidden infernal madness unleashed, attributes drastically changed.
+				HP increased by 35%
+				Defense reduced by 10%
+				Damage increased by 20%
+				Attacks inflict Infernal Blaze burn effect.
+				'''
+			狱火焚身:
+				'''
+				[c/00FF00:Infernal Immolation]
+				Active: Burns HP for ultimate power, increasing speed and damage, but becomes more vulnerable. Attacks cause explosions and apply Infernal Blaze.
+				Cannot be cast below 30% HP, automatically interrupts below 20% HP.
+				'''
+			激怒:
+				'''
+				[c/00FFFF:Enrage]
+				Passive: When taking damage, has a chance to instantly reset [c/00FF00:Infernal Immolation] cooldown.
+				'''
+			地狱幻影:
+				'''
+				[c/FF0000:Infernal Phantasm]
+				Active: Summons two infernal phantasm clones to fight alongside.
+				'''
+			地狱武士:
+				'''
+				[c/00FFFF:Infernal Samurai]
+				Passive: The essence of a samurai fallen into hell fully awakened.
+				Defense increased by 10%
+				Damage increased by 10%
+				Attack method changes to summoning Infernal Blaze Blades for combat.
+				'''
+			地狱颅骨:
+				'''
+				[c/00FF00:Infernal Skulls]
+				Active: Fires multiple infernal skulls that explode on impact or expiration.
+				'''
+			地狱装甲:
+				'''
+				[c/00FFFF:Infernal Armor]
+				Passive: Gains 10% damage reduction. The longer the combat duration, the higher the damage dealt, up to 30%.
+				'''
+			赤红炎舞:
+				'''
+				[c/FF0000:Crimson Blaze Blade]
+				Active: Throws a tracking hellfire blade that moves in a spinning pattern, generating clusters of flame particles along its path that thrust out a single fiery blade.
+				'''
+			暗咒:
+				'''
+				[c/00FFFF:Dark Curse]
+				Passive: The dark nature of an evil mage awakened.
+				HP reduced by 20%
+				Defense increased by 20%
+				Damage increased by 20%
+				Attack method changes from melee to ranged.
+				'''
+			夺魂愈疗:
+				'''
+				[c/00FF00:Soul Steal Heal]
+				Active: Summons three ghosts to attack enemies, then transforms into healing energy flying towards the player.
+				'''
+			魂怒共鸣:
+				'''
+				[c/00FFFF:Soul Fury Resonance]
+				Passive: When taking damage, has a chance to instantly reset [c/00FF00:Soul Steal Heal] cooldown.
+				'''
+			魂怒反噬:
+				'''
+				[c/FF0000:Soul Fury Backlash]
+				Active: Applies a buff to the player, increasing damage by 15% for 15 seconds. If damage is taken during the effect, it ends prematurely and summons vengeful ghosts to counterattack.
+				'''
+		}
+
+		Achievements: {
+			强化台: {
+				FriendlyName: Time to Strengthen!!
+				Description: Found and used the Strengthening Platform for the first time.
+			}
+
+			强化成功: {
+				FriendlyName: +1, +2, and +3...
+				Description: Successfully obtained an enhanced weapon.
+			}
+
+			宣花葫芦: {
+				FriendlyName: You're mine!
+				Description: Successfully captured a special monster using the Xuanhua Gourd. The gourd can be found deep in the jungle.
+			}
+
+			战宠出战: {
+				FriendlyName: Loyal Battle Buddy
+				Description: Successfully deployed a combat pet.
+			}
+
+			完美伙伴: {
+				FriendlyName: Perfect Partner
+				Description: Your combat pet has reached its ultimate evolved form.
+			}
+
+			黎明初升: {
+				FriendlyName: Rising Days
+				Description: Loaded into a world with the Dawn Mod for the first time. Thank you for playing!
+			}
+		}
+	}
+}

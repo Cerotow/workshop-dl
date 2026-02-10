@@ -1,0 +1,161 @@
+Mods: {
+	DDmod: {
+		DrawText: {
+			敬请期待: Not yet open
+			进入: enter
+			选择地图: Select Map
+		}
+
+		Lock: {
+			解锁: Unlocked, find the Hunter slime and go
+			未解锁: Not unlocked
+			草原2: Clear the grassland to unlock
+			草原3: Clear the grassland Center to unlock
+			草原4: Clear the abandoned warehouses to unlock
+			墓地: Hide the level
+			墓地2: Clear the graveyard to unlock
+		}
+
+		Level: {
+			草原: grassland
+			草原2: grassland Center
+			草原3: Abandoned warehouses
+			草原4: End of the grassland
+			墓地: Graveyard
+			墓地2: Graveyard(difficulty)
+			通关宝箱: Clearance chests
+		}
+
+		world: {
+			world1: Construct foundations
+			world2: Create worlds
+			world3: Final adjustments
+			dead1: Press the mount button to exit
+			dead2: Move the keys to shift the screen
+		}
+
+		Entrust: {
+			接受委托1: need {0}{$Currency.Copper} Accept the Commission
+			接受委托2: need {0}{$Currency.Silver},{1}{$Currency.Copper} Accept the Commission
+			接受委托3: need {0}{$Currency.Gold},{1}{$Currency.Silver},{2}{$Currency.Copper} Accept the Commission
+			接受委托4: need {0}{$Currency.Platinum},{1}{$Currency.Gold},{2}{$Currency.Silver},{3}{$Currency.Copper} Accept the Commission
+			领取奖励: Claim reward
+			领取成功: Claim successful
+			接受委托成功: Acceptance of the Commission is successful
+			每日委托: Daily Commission
+			冒险等级: Adventurer Level
+			未完成: Not done
+			已完成: done
+			你没有足够的押金: You don't have enough deposit
+			失败: fail
+			收集: gather
+			已拥有: possess
+			击杀: Kill
+			已经击杀: Already killed
+			升级条件: Increase the level of adventurers, increase Commission difficulty and Loot
+			升级条件2: It looks like you're not strong enough to accept these commissions at the moment, so get up to level 5 first!
+			当前等级: Current Adventurer Level
+			当前拥有: Current player Level
+			需要等级: Need Level
+			升级进度: Progress
+			击败目标: "Downed target "
+			机械三王: All mechanical boss
+			任务追踪: Commission
+			无: None
+			或: "{0}or{1}"
+			水母: jellyfish
+			史莱姆: Slime
+			史莱姆统计: Slime(Special slimes only count {0} and {1})
+			三统计: "{0},{1},{2}"
+		}
+
+		EntrustText: {
+			物块委托1: We are short of {0} units of {1} building materials. Could someone please help collect them? Thank you~
+			物块委托2: Seriously lacking {0} units of {1}. If anyone can find these building materials, please deliver them here.
+			物块委托3: Our defense line was damaged in the last attack. We need {0} units of {1} for repairs.
+			物块委托4: Our home was attacked by a group of monsters. We need {0} units of {1} as repair materials. Please.
+			材料委托1: Hoping an adventurer can collect {1}, just {0} units will do.
+			材料委托2: We need {1} as material for crafting magic items, {0} units are needed. If an adventurer can find them, we will reward handsomely.
+			武器委托1: A weapon would greatly increase my strength. I need {0} units of {1}.
+			武器委托2: During a battle, my weapon {1} was accidentally damaged. I heard adventurers can forge weapons. Please get me {0} of such weapons. I will provide a reward.
+			送击杀委托1: Thank you for your help. Here is some reward for you.
+			#Forest
+			森林击杀委托1: "{1} are hurting villagers everywhere. Please go slay {0} {1}."
+			森林击杀委托2: I need some corpse samples of {1}. Slay {0} of them.
+			森林击杀委托3: A group of {1} attacked our village. We missed {0} of them lurking in the village during our defense. Hope you can find and slay them.
+			森林击杀委托4: We found a small group of {1} wandering on the village outskirts, estimated {0} of them. Intercept them before they get closer.
+			森林击杀委托5: Our villagers were attacked by {0} {1} during their exploration. We hope an adventurer can eliminate the threat.
+			#Underground
+			地下击杀委托1: Many enemies are blocking the underground passage. Please go underground and clear {0} {1}.
+			地下击杀委托2: I need samples of some underground creatures. Please go slay {0} {1}.
+			地下击杀委托3: Someone commissioned to slay {0} {1} and left the reward here.
+			#Glowing Mushroom Biome
+			发光蘑菇蝙蝠击杀委托1: There is a group of bats parasitized by mushroom spores in the Glowing Mushroom biome. Please go slay {0} {1} for my research.
+			发光蘑菇亡灵击杀委托1: Some spore-parasitized undead have caught my attention. Please go slay {0} undead for my research.
+			发光蘑菇击杀委托1: There are many mutated mushrooms in the Glowing Mushroom biome. Please, warrior, go slay {0} {1}.
+			#Snow Biome
+			雪地击杀委托1: I need some biological samples from the icy snow area. Slay {0} {1} and bring them back.
+			雪地击杀委托2: How do creatures in the snowy ice land resist the cold? Please, warrior, go slay {0} {1} and bring them back for research.
+			雪地击杀委托3: The secrets of the snowy ice land are too many. I am very interested in {1}. Go slay {0} and bring them back.
+			#Blood Moon
+			血月击杀委托1: There is a creature, its whole body is red. Yes, it's {1}. Go slay {0} and bring them back.
+			血月击杀委托2: Legend says, during the Blood Moon, large numbers of undead gather, and rare {1} will appear. Go slay them.
+			血月击杀委托3: Accept the task, and you will get a tear drop that can start the Blood Moon. Use it to start the Blood Moon, go slay {0} {1} for me.
+			#Jungle
+			丛林击杀委托1: The jungle is a place every adventurer wants to explore, with countless treasures and dangerous creatures. So I ask you to slay {0} {1} and return.
+			丛林击杀委托2: I heard that {1} are overrunning the jungle, seriously affecting the ecological balance. Please, adventurer, go clear {0} {1}.
+			丛林击杀委托3: The jungle is too dangerous, but I need some corpses of {1}. Please, adventurer, help me slay {0} of them.
+			#Desert
+			沙漠击杀委托1: The desert is very dangerous, especially underground, full of antlions, bugs, slimes. Now, go slay {0} {1} and return.
+			沙漠击杀委托2: The scorching desert is deadly. Is there any adventurer willing to slay {0} {1}? I will give a reward.
+			沙漠击杀委托3: I was injured by {1} during my desert exploration. I'm very angry. Is there any warrior willing to slay {0} {1}? Please.
+			#Corruption
+			腐化击杀委托1: This world has a corrupt place. The creatures there are disgusting, but I quite like the smell. Go slay {0} {1} and return.
+			腐化击杀委托2: I accidentally stepped into a pitch-black place during exploration. The creatures there are very troublesome. Please, adventurer, help me clear {0} {1}. I dropped something there.
+			腐化击杀委托3: The creatures in the Corruption have piqued my interest. Go slay {0} {1} for my research.
+			#Crimson
+			血猩击杀委托1: Legend says there is a land of flesh on this continent. The creatures there are particularly disgusting, but they are also excellent experimental materials. Go slay {0} {1}.
+			血猩击杀委托2: Oh no! I dropped something in a place full of flesh, blocked by {0} {1}, preventing me from retrieving it. Please help me slay them.
+			血猩击杀委托3: Is there any warrior willing to go to the Crimson and slay {0} {1}? They look just too disgusting.
+			#Rain
+			下雨击杀委托1: Some different creatures appear on rainy days. Please go slay {0} {1}.
+			下雨击杀委托2: Many {1} have appeared during the rain. Please, adventurer, go clear them out.
+			下雨击杀委托3: The rain causes some aggressive creatures to gather and appear. Please help clear them out.
+			#Water
+			水下击杀委托1: Some creatures can only live in water. Please go slay {0} {1}.
+			水下击杀委托2: Anyone there? Damn {1} attacked me while I was swimming. Please help me slay {0} to make me feel better.
+			水下击杀委托3: I want to eat something different. Could someone please go underwater and slay {0} {1} for me?
+			#Sky
+			天空击杀委托1: Some creatures live in the sky. Please go slay {0} {1}.
+			天空击杀委托2: Anyone there? Damn {1} attacked my hot air balloon. Please help me slay {0} to make me feel better.
+			#Dungeon
+			地牢击杀委托1: There is an underground prison on one side of this continent, full of ancient skeletons. Please go slay {0} {1}.
+			地牢击杀委托2: I wonder if there are any warriors now who can go into the dungeon and slay {0} {1}.
+			地牢击杀委托3: The dungeon is full of skeletons. Go slay {0} {1} and bring them back to see how they are composed.
+			#Underworld
+			地狱击杀委托1: Deep underground, there is a world full of lava, with many creatures inhabiting there. Go slay {0} {1} and bring them back for a look.
+			地狱击杀委托2: I heard there are many creatures in a lava-filled place? Go slay {0} {1} and bring them back.
+			地狱击杀委托3: I found some creatures are not afraid of lava. Bring back {0} {1} for research.
+			#Hardmode Early
+			困难击杀委托1: It seems you defeated some formidable guard. Now new monsters have appeared in the world. {1} is very peculiar. Go slay {0} of them.
+			困难击杀委托2: What have you done? The ancient souls of light and darkness have been released, causing {1} to awaken. Try to slay {0} to see if they still pose a threat.
+			困难击杀委托3: I found some new creatures have appeared in this world. Bring back {0} {1} for research.
+			困难击杀委托4: The sealed souls of light and darkness from centuries ago have finally broken free. I found {1} has become more ferocious. Go slay some to reduce the threat.
+			困难击杀委托5: These new monsters are just right for training new warriors. Go slay {0} {1} and see.
+			#Hallow
+			神圣击杀委托1: Behold, the ancient Soul of Light has been released. {1} have appeared in the Hallow. Go slay {0} of them.
+			神圣击杀委托2: There are many creatures in the Hallow. Go slay {0} {1} and bring them back.
+			神圣击杀委托3: The Hallow is too beautiful, but those creatures are very hostile. Please help me deal with them.
+			#Post-Plantera Dungeon
+			困难地牢击杀委托1: Not long ago, something seemed to happen in the dungeon. I saw some new monsters, and among them, {1} caught my attention. Go slay {0} and bring them back.
+			困难地牢击杀委托2: The monsters in the dungeon have become abnormally狂暴 and very powerful. Is there any adventurer willing to clear {0} {1}?
+			困难地牢击杀委托3: I just went to the dungeon to look for treasure and was injured by {1}. I'm very angry. Go help me slay a few.
+			#Temple
+			神庙击杀委托1: That flower has been defeated, so go to the Temple and slay {0} {1} for me.
+			神庙击杀委托2: The creatures in the Temple seem to have lost their minds. Go slay {0} {1}.
+			神庙击杀委托3: I've seen many monsters. The monsters in the Temple are quite interesting. Go slay {0} {1} and return.
+			#Special Slay Commission
+			特殊委托小粉: There is a special slime, it's pink. Please slay {0} and bring them back.
+		}
+	}
+}

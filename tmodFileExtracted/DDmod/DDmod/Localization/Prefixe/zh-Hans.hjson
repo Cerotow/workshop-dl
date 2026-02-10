@@ -1,0 +1,24 @@
+Mods: {
+	DDmod: {
+		Prefixes: {
+			" .DisplayName": ""
+			妈妈.DisplayName: 妈妈
+			����.DisplayName: ����
+			超级无敌宇宙第一大帝.DisplayName: 超级无敌宇宙第一大帝
+			神级.DisplayName: 神级+
+			神级2.DisplayName: 神级+
+			AccessoriesPrefix.DisplayName: Accessories Prefix
+			奔流.DisplayName: 奔流
+			庇佑.DisplayName: 庇佑
+			洞悉.DisplayName: 洞悉
+			猛烈.DisplayName: 猛烈
+			疯狂.DisplayName: 疯狂
+			传奇.DisplayName: 传奇+
+			神话.DisplayName: 神话+
+			虚幻.DisplayName: 虚幻+
+			恶魔.DisplayName: 恶魔+
+		}
+
+		DamageClasses.TalismanDamage.DisplayName: Talisman Damage
+	}
+}

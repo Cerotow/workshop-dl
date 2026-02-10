@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Content\Projectiles\Melee\Projectiles - 快捷方式.lnk" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="StructureHelper">
+	    <HintPath>StructureHelper.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SubworldLibrary">
+	    <HintPath>SubworldLibrary.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>

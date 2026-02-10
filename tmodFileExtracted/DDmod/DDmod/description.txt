@@ -1,0 +1,12 @@
+DawnMod: Rising Days(黎明:初升)是一个还在开发中的模组.目前内容非常少,目前内容:670+物品,大量原版武器重置,19个Boss,10个小boss,借鉴了1.3boss血条mod的部分代码.Bilibili同名
+感谢旅人归途模组作者Pan提供的图像处理
+
+
+English：
+《DawnMod: Rising Days》This is a mod that is still in development. There is very little content at present
+the current content:
+670+ new items
+Some vanilla weapons reset
+19 new Boss
+10 new MiniBoss
+refer to some codes from the FKBossHealthBar of 1.3Tml to make a Boss health bar

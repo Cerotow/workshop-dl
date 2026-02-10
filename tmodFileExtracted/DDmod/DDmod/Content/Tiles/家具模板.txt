@@ -1,0 +1,40 @@
+没有备注的是(MapObject)
+DDBed 床(ItemName)
+DDLantern 灯笼
+DDChandelier 吊灯
+DDPiano 钢琴(ItemName)
+DDWorkBench 工作台(ItemName)
+DDCandle 蜡烛(ItemName)
+DDToilet 马桶
+DDDoor 门
+DDPlatforms 平台
+DDSofa 沙发(ItemName)
+DDBookcase 书架(ItemName)
+DDDresser 梳妆台(ItemName)
+DDSink 水槽
+DDChest 宝箱(ItemName)
+DDFloorLamp 落地灯
+DDChair 椅子
+DDBathtub 浴缸(ItemName)
+DDGrandfatherClock 落地大摆钟(ItemName)
+DDCandelabra 烛台(ItemName)
+DDTable 桌子
+
+        public virtual int Icon => 0;
+        public virtual int Dust => 0;
+        public virtual Color Color => new Color(0, 0, 0, 0);
+        public virtual Vector3 LightColor => new Vector3(0, 0, 0);
+        public virtual Texture2D flameTexture =>null;
+
+/////////////////
+        public override int Icon => 0;
+        public override int Dust => ModContent.DustType<花岗岩电光粒子>();
+        public override Color Color => new Color(100, 155, 255);
+        public override Vector3 LightColor => new Color(255, 100, 100, 0).ToVector3();
+
+            SetDefaults();
+        }
+        public virtual void SetDefaults()
+        {
+
+        }

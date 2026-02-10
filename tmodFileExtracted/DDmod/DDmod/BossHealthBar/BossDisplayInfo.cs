@@ -1,0 +1,79 @@
+﻿namespace DDmod.BossHealthBar
+{
+    /// <summary>
+    /// Class used to hold the dictionary of npcs->healthbars
+    /// </summary>
+    public static class BossDisplayInfo
+    {
+        // Matches npc types to healthbar objects
+        private static Dictionary<int, HealthBar> npchb;
+        internal static Dictionary<int, HealthBar> NPCHealthBars
+        {
+            get
+            {
+                if (npchb == null)
+                {
+                    npchb = new Dictionary<int, HealthBar>();
+                }
+                return npchb;
+            }
+        }
+        internal static void ResetNPCHealthBars()
+        {
+            npchb = null;
+        }
+
+        /// <summary>
+        /// Register this health bar to this NPC for use in-game
+        /// </summary>
+        /// <param name="npcType"></param>
+        /// <param name="healthBar"></param>
+        public static void SetCustomHealthBar(int npcType, HealthBar healthBar)
+        {
+            //Set up value for out
+            NPCHealthBars[npcType] = healthBar;
+            healthBar.DisplayMode = HealthBar.DisplayType.Standard;
+            healthBar.OnRegister();
+        }
+
+        /// <summary>
+        /// Register this health bar as a multiple npc bar, meaning it is shared between all npcs of the types
+        /// </summary>
+        /// <param name="healthBar">Same as usual</param>
+        /// <param name="npcTypes"></param>
+        public static void SetCustomHealthBarMultiple(HealthBar healthBar, params int[] npcTypes)
+        {
+            foreach (int npcType in npcTypes)
+            {
+                SetCustomHealthBar(npcType, healthBar);
+            }
+            healthBar.DisplayMode = HealthBar.DisplayType.Multiple;
+            healthBar.multiNPCType = npcTypes;
+            healthBar.OnRegister();
+        }
+
+        /// <summary>
+        /// Register this health bar as a multiple npc bar, meaning it is shared between all npcs of the types
+        /// </summary>
+        /// <param name="healthBar">Same as usual</param>
+        /// <param name="npcTypes">NPCs in order of phase (singles only)</param>
+        public static void SetCustomHealthBarPhase(HealthBar healthBar, params int[] npcTypes)
+        {
+            foreach (int npcType in npcTypes)
+            {
+                SetCustomHealthBar(npcType, healthBar);
+            }
+            healthBar.DisplayMode = HealthBar.DisplayType.Phase;
+            healthBar.multiNPCType = npcTypes;
+            healthBar.OnRegister();
+        }
+
+        public static HealthBar GetHealthBarForNPCOrNull(int npcType)
+        {
+            HealthBar hb = null;
+            NPCHealthBars.TryGetValue(npcType, out hb);
+            return hb;
+        }
+
+    }
+}

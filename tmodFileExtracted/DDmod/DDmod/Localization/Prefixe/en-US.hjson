@@ -1,0 +1,24 @@
+Mods: {
+	DDmod: {
+		Prefixes: {
+			" .DisplayName": ""
+			妈妈.DisplayName: 妈妈
+			����.DisplayName: ����
+			超级无敌宇宙第一大帝.DisplayName: Supreme Invincible Emperor
+			神级.DisplayName: Greater Godly
+			神级2.DisplayName: Greater Godly
+			AccessoriesPrefix.DisplayName: Accessories Prefix
+			奔流.DisplayName: Torrential
+			庇佑.DisplayName: Blessed
+			洞悉.DisplayName: Insightful
+			猛烈.DisplayName: Fierce
+			疯狂.DisplayName: Frenzied
+			传奇.DisplayName: Greater Legendary
+			神话.DisplayName: Greater Mythical
+			虚幻.DisplayName: Superior Unreal
+			恶魔.DisplayName: Greater Demon
+		}
+
+		DamageClasses.TalismanDamage.DisplayName: Talisman Damage
+	}
+}

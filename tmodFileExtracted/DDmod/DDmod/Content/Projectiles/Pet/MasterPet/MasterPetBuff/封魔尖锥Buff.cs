@@ -1,0 +1,29 @@
+﻿namespace DDmod.Content.Projectiles.Pet.MasterPet.MasterPetBuff
+
+{
+    public class 封魔尖锥Buff : ModBuff
+    {
+        public override void SetStaticDefaults()
+        {
+
+            Main.buffNoTimeDisplay[Type] = true;
+            //Main.vanityPet[Type] = true;
+            Main.lightPet[Type] = true;
+        }
+
+        public override void Update(Player player, ref int buffIndex)
+        {
+            player.buffTime[buffIndex] = 18000;
+
+            int projType = ModContent.ProjectileType<封魔尖锥>();
+
+
+            if (player.whoAmI == Main.myPlayer && player.ownedProjectileCounts[projType] <= 0)
+            {
+                var entitySource = player.GetSource_Buff(buffIndex);
+
+                NewProjectile(entitySource, player.Center, Vector2.Zero, projType, 0, 0f, player.whoAmI);
+            }
+        }
+    }
+}

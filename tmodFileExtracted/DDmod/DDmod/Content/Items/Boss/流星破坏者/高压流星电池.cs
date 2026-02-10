@@ -1,0 +1,27 @@
+﻿using DDmod.Content.Items.Series.Star;
+using DDmod.Content.Tiles.Relic;
+
+namespace DDmod.Content.Items.Boss.流星破坏者
+{
+    public class 高压流星电池 : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+        }
+
+        public override void SetDefaults()
+        {
+            Item.width = 30;
+            Item.height = 40;
+            Item.maxStack = Item.CommonMaxStack;
+            Item.rare = 6;
+            Item.value = Item.buyPrice(0, 0, 1, 0);
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe(3).AddIngredient(ModContent.ItemType<流星电池>(), 3).AddIngredient(547, 1).AddIngredient(548, 1).AddIngredient(549, 1).AddTile(TileID.MythrilAnvil).Register();
+        }
+    }
+}
