@@ -4,8 +4,8 @@ SET TMODFILE=CoolerItemVisualEffect
 :: -------
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
-tModUnpacker.exe "downloaded\\content\\1281930\\2829306780\\2025.11\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
-:: downloaded/content/1281930/2829306780/2025.11 
+tModUnpacker.exe "downloaded\\content\\1281930\\2815777479\\2025.10\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
+:: downloaded/content/1281930/2815777479/2025.10
 powershell -Command ^
   "Compress-Archive -Path 'tmodFileExtracted\%TMODFILE%\*' -DestinationPath 'tmodFileExtracted\%TMODFILE%\%TMODFILE%.zip' -Force"
 
