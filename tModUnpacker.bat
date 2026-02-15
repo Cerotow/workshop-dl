@@ -13,8 +13,8 @@ set TMODFILE=%TMODFILE:.tmod=%
 mkdir tmodFileExtracted\%TMODFILE%
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
-tModUnpacker.exe "downloaded\\content\\1281930\\2815777479\\2025.10\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
-:: downloaded/content/1281930/2815777479/2025.10
+tModUnpacker.exe "downloaded\\content\\1281930\\2966457992\\2023.8\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
+:: downloaded/content/1281930/2966457992/2023.8
 powershell -Command ^
   "Compress-Archive -Path 'tmodFileExtracted\%TMODFILE%\*' -DestinationPath 'tmodFileExtracted\%TMODFILE%\%TMODFILE%.zip' -Force"
 
