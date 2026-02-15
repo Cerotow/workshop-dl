@@ -1,0 +1,36 @@
+Melee Effects +
+(full credit to Wind_Mind on steam for original meleeeffects mod)
+
+Changes the melee swing effect and adds charge attack.
+-Compatible with Calamity Mod
+
+Recent Fixes:
+-1.4.4.1 - 1.4.4 port :)
+-1.0.5 config items added: Normal attack reach, charge attack reach, slash brightness. Weapons with right click effects should work normally when charge attacks are disabled now. 
+-1.0.4 weapon swing trail effect size changed to better match weapon/hitbox, added slider for thickness of effect
+-1.0.3 Added Whitelist, Blacklist, and Brownlist(spitting wooden arrows)
+-1.0.2 Phasesabers fixed and changed sound for Phasesabers, Phaseblades
+
+Notable changes/fixes:
+-Whitelist/Blacklist
+-phasesaber fix
+-toggle on hit effects/change size
+-fixed multiplayer sounds
+-change charge time as well as damage
+-staff of regrowth fix
+-calamity true melee damage fix (should work on other alternate damage types as well)
+-melee attack speed now has effect on both regular and charged slash
+-melee size changes with the melee glove equipped
+
+Please leave suggestions on more improvements that can be made in the future on the steam workshop page, as well as weapons that are added to Brownlist.
+Enjoy.
+Check out my other mod "Moon Cutting Sword Mod" for some Bleach inspired content and let me know what you think!
+
+(full credit to Wind_Mind on steam for original meleeeffects mod)
+
+(Mods used in video:)
+- Calamity
+- Calamity Infernum
+- Armament Display Lite
+- Colored Damage Types
+- Moon Cutting Sword Mod

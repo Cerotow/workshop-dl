@@ -1,0 +1,290 @@
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using ReLogic.Content;
+using System.Collections.Generic;
+using System;
+using Terraria;
+using Terraria.Audio;
+using Terraria.DataStructures;
+using Terraria.Enums;
+using Terraria.ID;
+using Terraria.ModLoader;
+using static Terraria.Utils;
+using Terraria.GameContent;
+using MeleeEffects.Projectiles;
+using MeleeEffects.Effects;
+using MeleeEffects.Config;
+using static System.Formats.Asn1.AsnWriter;
+using System.Reflection;
+
+namespace MeleeEffects.Projectiles
+{
+    public class SlashMethod : ModProjectile
+    {
+
+        private Effect SlashEff = ModContent.Request<Effect>("MeleeEffects/Effects/Mhd", (AssetRequestMode)2).Value;
+
+        public bool Reverse;
+
+        public bool IsNPCproj;
+
+        public Color c = Color.White;
+
+        public Texture2D t;
+
+        public int ShouldDoNextSlash;
+
+        public float Scale1 = 1f;
+
+        public override string Texture => "Terraria/Images/Extra_193";
+        public static void Slash(bool IsPlayerProj, IEntitySource source, float rotation, float Startingrot, float Length, float Thick, float YScale, int ExtraSpeed = 0, int damage = 50, float Knockback = 0f, int owner = 0, int ownerNPC = 0, Color color = default, Texture2D weaponTex = null, int ShouldDoNextSlash = 0, float KnockBackRotation = 0f, float WeaponScale = 1f)
+        {
+            Thick = ModContent.GetInstance<Mconfig>().SwingEffectOp;
+
+            if (IsPlayerProj)
+            {
+                Projectile p = Projectile.NewProjectileDirect(source, Main.player[owner].Center, KnockBackRotation.ToRotationVector2() * Length, ModContent.ProjectileType<SlashMethod>(), damage, Knockback, owner, 0f, rotation);
+                p.rotation = Startingrot;
+                (p.ModProjectile as SlashMethod).Reverse = Startingrot > 0f;
+                p.localAI[0] = Thick;
+                p.localAI[1] = YScale;
+                if (color != default)
+                {
+                    (p.ModProjectile as SlashMethod).c = color;
+                }
+                p.extraUpdates = ExtraSpeed;
+                (p.ModProjectile as SlashMethod).Scale1 = WeaponScale;
+                (p.ModProjectile as SlashMethod).ShouldDoNextSlash = ShouldDoNextSlash;
+                if (weaponTex != null)
+                {
+                    (p.ModProjectile as SlashMethod).t = weaponTex;
+                }
+                Projectile p4 = Projectile.NewProjectileDirect(source, Main.player[owner].Center, KnockBackRotation.ToRotationVector2() * Length, ModContent.ProjectileType<SlashMethod2>(), damage, Knockback, owner, 0f, rotation);
+                p4.rotation = Startingrot;
+                (p4.ModProjectile as SlashMethod2).Reverse = Startingrot > 0f;
+                p4.localAI[0] = Thick;
+                p4.localAI[1] = YScale;
+                if (color != default)
+                {
+                    (p4.ModProjectile as SlashMethod2).c = color;
+                }
+                p4.extraUpdates = ExtraSpeed;
+                (p4.ModProjectile as SlashMethod2).T = weaponTex;
+            }
+            if (!IsPlayerProj)
+            {
+                Projectile p2 = Projectile.NewProjectileDirect(source, Main.npc[ownerNPC].Center, Vector2.UnitX * Length, ModContent.ProjectileType<SlashMethod>(), damage, Knockback, 0, ownerNPC, rotation);
+                p2.rotation = Startingrot;
+                (p2.ModProjectile as SlashMethod).Reverse = Startingrot > 0f;
+                (p2.ModProjectile as SlashMethod).IsNPCproj = true;
+                p2.localAI[0] = Thick;
+                p2.localAI[1] = YScale;
+                if (color != default)
+                {
+                    (p2.ModProjectile as SlashMethod).c = color;
+                }
+                p2.extraUpdates = ExtraSpeed;
+                Projectile p3 = Projectile.NewProjectileDirect(source, Main.npc[ownerNPC].Center, Vector2.UnitX * Length, ModContent.ProjectileType<SlashMethod2>(), damage, Knockback, 0, ownerNPC, rotation);
+                p3.rotation = Startingrot;
+                (p3.ModProjectile as SlashMethod2).Reverse = Startingrot > 0f;
+                (p3.ModProjectile as SlashMethod2).IsNPCproj = true;
+                p3.localAI[0] = Thick;
+                p3.localAI[1] = YScale;
+                if (color != default(Color))
+                {
+                    (p3.ModProjectile as SlashMethod2).c = color;
+                }
+                p3.extraUpdates = ExtraSpeed;
+                (p3.ModProjectile as SlashMethod2).T = weaponTex;
+            }
+        }
+        public override void CutTiles()
+        {
+
+            DelegateMethods.tilecut_0 = TileCuttingContext.AttackProjectile;
+            _ = base.Projectile.velocity;
+            Utils.PlotTileLine(base.Projectile.Center, Main.player[base.Projectile.owner].Center + base.Projectile.velocity.Length() * base.Projectile.ai[1].ToRotationVector2(), base.Projectile.velocity.Length() * base.Projectile.localAI[1], DelegateMethods.CutTiles);
+        }
+        public override void SetStaticDefaults()
+        {
+            ProjectileID.Sets.TrailCacheLength[base.Projectile.type] = 40;
+            ProjectileID.Sets.TrailingMode[base.Projectile.type] = 2;
+            base.SetStaticDefaults();
+        }
+        public override void SetDefaults()
+        {
+            Player player = Main.player[base.Projectile.owner];
+            base.Projectile.width = Projectile.height = 24;
+            base.Projectile.DamageType = player.HeldItem.DamageType;
+            base.Projectile.timeLeft = 100;
+            base.Projectile.tileCollide = false;
+            base.Projectile.penetrate = -1;
+            base.Projectile.ignoreWater = true;
+            base.Projectile.aiStyle = -11;
+            base.Projectile.usesLocalNPCImmunity = true;
+            base.Projectile.localNPCHitCooldown = 1000;
+            base.Projectile.noEnchantmentVisuals = true;
+            base.SetDefaults();
+        }
+        public override bool ShouldUpdatePosition()
+        {
+            return false;
+        }
+        public override bool? Colliding(Rectangle projHitbox, Rectangle targetHitbox)
+        {
+            Player player = Main.player[((ModProjectile)this).Projectile.owner];
+            float point = 0f;
+		    Vector2 endPoint = player.Center + base.Projectile.velocity.Length() * base.Projectile.ai[1].ToRotationVector2();
+		    return Collision.CheckAABBvLineCollision(targetHitbox.TopLeft(), targetHitbox.Size(), player.Center, endPoint, base.Projectile.velocity.Length() * base.Projectile.localAI[1], ref point);
+        }
+        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        {
+            Player player = Main.player[base.Projectile.owner];
+            ItemLoader.OnHitNPC(player.HeldItem, player, target, damage, knockback, crit);
+            if (ModContent.GetInstance<Mconfig>().OnHitEffects)
+            {
+                Tetrad.ShootProjectileDir(target.Center, Vector2.Zero, ModContent.ProjectileType<SlashingEffect>(), 0, 0f, 0, Main.rand.NextFloat(-3.14f, 3.14f));
+            }
+            if (target.HitSound == SoundID.NPCHit4)
+            {
+                for (int j = 0; j < 22; j++)
+                {
+                    SoundStyle style2 = new SoundStyle("MeleeEffects/Sounds/Block");
+                    style2.Volume = 0.25f;
+                    Tetrad.PlaySound(in style2, target.Center);
+                    if (ModContent.GetInstance<Mconfig>().OnHitEffects)
+                    {
+                        Dust.NewDustDirect(target.position, target.width, target.height, DustID.Torch, 0f, 0f, 0, default(Color), Main.rand.NextFloat(1.2f, 3f)).velocity = (base.Projectile.ai[1] + Main.rand.NextFloat(-0.45f, 0.45f)).ToRotationVector2() * Main.rand.NextFloat(0.4f, 10f);
+                    }
+                }
+            }
+            else
+            {                
+                for (int i = 0; i < 32; i++)
+                {
+                    SoundStyle style = new SoundStyle("MeleeEffects/Sounds/Onhit");
+                    style.Volume = 0.45f;
+                    style.Pitch = Main.rand.NextFloat(-0.15f, 0.15f);
+                    Tetrad.PlaySound(in style, target.Center);
+                    if (ModContent.GetInstance<Mconfig>().OnHitEffects)
+                    {
+                        Dust.NewDustDirect(target.position, target.width, target.height, DustID.Blood, 0f, 0f, 0, default(Color), Main.rand.NextFloat(0.6f, 1.4f)).velocity = (base.Projectile.ai[1] + Main.rand.NextFloat(-0.45f, 0.45f)).ToRotationVector2() * Main.rand.NextFloat(0.4f, 10f);
+                    }
+                }
+            }
+            VanillaOnHit(player.HeldItem.type, target);
+            base.OnHitNPC(target, damage, knockback, crit);
+            player.HeldItem.GetType().GetMethod("OnHitNPC");
+        }
+        public override void AI()
+        {
+            Vector2 Directions = base.Projectile.rotation.ToRotationVector2();
+            Directions.Y *= base.Projectile.localAI[1];
+            Directions = Directions.RotatedBy(base.Projectile.ai[1]);
+            float RealDirection = Directions.ToRotation();
+            if (Main.player[base.Projectile.owner].direction > 0)
+            {
+                Main.player[base.Projectile.owner].itemRotation = RealDirection;
+            }
+            else
+            {
+                Main.player[base.Projectile.owner].itemRotation = 3.1416f + RealDirection;
+            }
+            if (base.Projectile.timeLeft > 40)
+            {
+                float r = MathHelper.Lerp(0.14f, 0f, 1f - (float)(base.Projectile.timeLeft - 40) / 60f);
+                if (!Reverse)
+                {
+                    base.Projectile.rotation += r;
+                }
+                else
+                {
+                    base.Projectile.rotation -= r;
+                }
+            }
+            if (!IsNPCproj)
+            {
+                base.Projectile.friendly = true;
+                base.Projectile.DamageType = Main.player[base.Projectile.owner].HeldItem.DamageType;
+            }
+            if (base.Projectile.timeLeft == 60 && !IsNPCproj)
+            {
+                Player player = Main.player[base.Projectile.owner];
+                if (ShouldDoNextSlash >= 1)
+                {
+                    float rd = Main.rand.NextFloat(-0.4f, 0.4f);
+                    Slash(IsPlayerProj: true, base.Projectile.GetSource_FromAI(), (Main.MouseWorld - player.Center).ToRotation(), Reverse ? (-1.9f + rd) : (1.9f + rd), 353f, 0.45f, 0.35f, 5, base.Projectile.damage, 5f, player.whoAmI, 0, c, t, ShouldDoNextSlash - 1);
+                }
+            }
+            base.AI();
+        }
+        public override bool PreDraw(ref Color lightColor)
+        {
+            Vector2 Directions = base.Projectile.rotation.ToRotationVector2();
+            Directions.Y *= base.Projectile.localAI[1];
+            Directions = Directions.RotatedBy(base.Projectile.ai[1]);
+            float RealDirection = Directions.ToRotation();
+            Vector2 ownerPos = Vector2.Zero;
+            ownerPos = ((!IsNPCproj) ? (Main.player[base.Projectile.owner].Center - Main.screenPosition) : (Main.npc[(int)base.Projectile.ai[0]].Center - Main.screenPosition));
+            List<VertexInfo2> slash = new();
+            for (int i = 0; i < base.Projectile.oldPos.Length; i++)
+            {
+                if (base.Projectile.oldRot[i] != 0f)
+                {
+                    Vector2 pos0 = base.Projectile.oldRot[i].ToRotationVector2() * base.Projectile.velocity.Length();
+                    pos0.Y *= base.Projectile.localAI[1];
+                    pos0 = pos0.RotatedBy(base.Projectile.ai[1]);
+                    slash.Add(new VertexInfo2(ownerPos + pos0, new Vector3(1f - (float)i / 40f, 0f, 1f), c * (1f - (float)i / 40f)));
+                    Vector2 pos1 = base.Projectile.oldRot[i].ToRotationVector2() * base.Projectile.velocity.Length() * (1f - base.Projectile.localAI[0] + base.Projectile.localAI[0] * (float)i / 40f);
+                    pos1.Y *= base.Projectile.localAI[1];
+                    pos1 = pos1.RotatedBy(base.Projectile.ai[1]);
+                    slash.Add(new VertexInfo2(ownerPos + pos1, new Vector3(1f - (float)i / 40f, 1f, 1f), c * (1f - (float)i / 40f)));
+                }
+            }
+            Main.spriteBatch.End();
+            Main.spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.AnisotropicClamp, DepthStencilState.None, RasterizerState.CullNone, null, Main.GameViewMatrix.TransformationMatrix);
+            Main.graphics.GraphicsDevice.Textures[0] = TextureAssets.Projectile[base.Projectile.type].Value;
+            Main.graphics.GraphicsDevice.Textures[1] = t;
+            SlashEff.CurrentTechnique.Passes[0].Apply();
+            if (slash.Count >= 3)
+            {
+                Main.graphics.GraphicsDevice.DrawUserPrimitives(PrimitiveType.TriangleStrip, slash.ToArray(), 0, slash.Count - 2);
+            }
+            Main.spriteBatch.End();
+            Main.spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.AnisotropicClamp, DepthStencilState.None, RasterizerState.CullNone, null, Main.GameViewMatrix.TransformationMatrix);
+            if (t != null)
+            {
+                // Swing weapon texture information
+                if (Reverse && base.Projectile.ai[1] > -(float)Math.PI / 2f && base.Projectile.ai[1] < (float)Math.PI / 2f)
+                {
+                    Main.EntitySpriteDraw(t, ownerPos, null, Color.White, RealDirection + 0.785f + 1.5707f, new Vector2(t.Width, t.Height), Scale1 / t.Size().Length(), SpriteEffects.FlipHorizontally, 0);
+                }
+                if (!Reverse && base.Projectile.ai[1] > -(float)Math.PI / 2f && base.Projectile.ai[1] < (float)Math.PI / 2f)
+                {
+                    Main.EntitySpriteDraw(t, ownerPos, null, Color.White, RealDirection + 0.785f, new Vector2(0f, t.Height), Scale1 / t.Size().Length(), SpriteEffects.None, 0);
+                }
+                else if ((Reverse && base.Projectile.ai[1] <= -(float)Math.PI / 2f) || base.Projectile.ai[1] >= (float)Math.PI / 2f)
+                {
+                    Main.EntitySpriteDraw(t, ownerPos, null, Color.White, RealDirection + 0.785f + 1.5707f, new Vector2(t.Width, t.Height), Scale1 / t.Size().Length(), SpriteEffects.FlipHorizontally, 0);
+                }
+                else if ((!Reverse && base.Projectile.ai[1] <= -(float)Math.PI / 2f) || base.Projectile.ai[1] >= (float)Math.PI / 2f)
+                {
+                    Main.EntitySpriteDraw(t, ownerPos, null, Color.White, RealDirection + 0.785f, new Vector2(0f, t.Height), Scale1 / t.Size().Length(), SpriteEffects.None, 0);
+                }
+            }
+            return false;
+        }
+        private void VanillaOnHit(int ID, NPC target)
+        {
+            if (ID == 3211)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Vector2 pos = target.Center;
+                    Projectile.NewProjectile(base.Projectile.GetSource_FromAI(), pos, Main.rand.NextVector2Unit() * 5f, ProjectileID.IchorSplash, base.Projectile.damage / 2, base.Projectile.knockBack, base.Projectile.owner);
+                }
+            }
+        }
+    }
+}

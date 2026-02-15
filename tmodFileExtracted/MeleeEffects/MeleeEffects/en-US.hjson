@@ -1,0 +1,79 @@
+Mods: {
+	MeleeEffects: {
+		Items.NullMask.DisplayName: No helmet
+
+		Projectiles: {
+			ChargeSlash.DisplayName: Charge Slash
+			Slash.DisplayName: Slash
+			SlashingEffect.DisplayName: Slashing Effect
+			SlashMethod.DisplayName: Slash Method
+			SlashMethod2.DisplayName: Slash Method2
+		}
+
+		Configs: {
+			Mconfig: {
+				DisplayName: Mconfig
+
+				ChargeTime: {
+					Label: Charge Time
+					Tooltip: Charge time multiplier of attack time. Default is 2.5x
+				}
+
+				ChargeDamage: {
+					Label: Charge Damage
+					Tooltip: Charge damage multiplier. Default is 3x
+				}
+
+				CanCharge: {
+					Label: RMB Charge Attacks
+					Tooltip: Enable/Disable charge attacks
+				}
+
+				OnHitEffects: {
+					Label: On Hit Effects
+					Tooltip: Enable/Disable on hit effects
+				}
+
+				SlashSize: {
+					Label: On Hit Slash Effect Size
+					Tooltip: Size of on hit slash effects. Default is 1
+				}
+
+				SwingEffectOp: {
+					Label: Weapon Trail Thickness
+					Tooltip: Thickness of weapon swing trail. Default is 0.5
+				}
+
+				SlashBright: {
+					Label: Weapon Trail Brightness
+					Tooltip: Slash brightness. Default is 0.5
+				}
+
+				NormalReach: {
+					Label: Normal Attack Reach
+					Tooltip: Reach of normal attacks. Default is 0.8
+				}
+
+				ChargeReach: {
+					Label: Charge Attack Reach
+					Tooltip: Reach of charge attacks. Default is 2
+				}
+
+				Whitelist: {
+					Label: Weapon and tool white-list*
+					Tooltip: Force ENABLES the melee swing effect on chosen items (Requires world reload)
+				}
+
+				Blacklist: {
+					Label: Weapon and tool black-list*
+					Tooltip: Force DISABLES the melee swing effect on chosen items (Requires world reload)
+				}
+
+				Brownlist: {
+					Label: Weapon and tool BROWN-LIST***
+					Tooltip: CODE BROWN: Add items to this list that spit out wooden arrows, please let me know on steam workshop page the weapon and mod. (Requires world reload)
+				}
+			}
+		}
+	}
+}
