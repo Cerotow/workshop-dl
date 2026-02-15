@@ -2,10 +2,12 @@ setlocal enabledelayedexpansion
 
 set TMODFILE=
 
-for /f "usebackq delims=" %%A in ("input.sh") do (
+for /f "usebackq tokens=2 delims==" %%A in ("input.sh") do (
     set TMODFILE=%%A
     goto done
 )
+set TMODFILE=%TMODFILE:"=%
+
 set TMODFILE=%TMODFILE:.tmod=%
 
 mkdir tmodFileExtracted\%TMODFILE%
