@@ -1,16 +1,7 @@
-setlocal enabledelayedexpansion
+:: Do not use double quote here
+SET TMODFILE=MeleeEffects
 
-set TMODFILE=
-
-for /f "usebackq tokens=2 delims==" %%A in ("input.sh") do (
-    set TMODFILE=%%A
-    goto done
-)
-set TMODFILE=%TMODFILE:"=%
-
-set TMODFILE=%TMODFILE:.tmod=%
-
-mkdir tmodFileExtracted\%TMODFILE%
+:: -------
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
 tModUnpacker.exe "downloaded\\content\\1281930\\2966457992\\2023.8\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
