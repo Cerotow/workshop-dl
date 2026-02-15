@@ -1,7 +1,14 @@
-:: Do not use double quote here
-SET TMODFILE=DDmod
+setlocal enabledelayedexpansion
 
-:: -------
+set TMODFILE=
+
+for /f "usebackq delims=" %%A in ("input.sh") do (
+    set TMODFILE=%%A
+    goto done
+)
+set TMODFILE=%TMODFILE:.tmod=%
+
+mkdir tmodFileExtracted\%TMODFILE%
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
 tModUnpacker.exe "downloaded\\content\\1281930\\2815777479\\2025.10\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
