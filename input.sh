@@ -4,4 +4,4 @@ export APP_ID=1281930
 export ENTRY_ID=3645731835
 
 # tmod file to extract using extractTmod.yml workflow
-export TMODFILE="MeleeEffects.tmod"
+export TMODFILE="LaughCat.tmod"
