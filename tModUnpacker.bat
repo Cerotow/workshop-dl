@@ -1,11 +1,11 @@
 :: Do not use double quote here
-SET TMODFILE=MeleeEffects
+SET TMODFILE=LaughCat
 
 :: -------
 
 mkdir "tmodFileExtracted\\%TMODFILE%"
-tModUnpacker.exe "downloaded\\content\\1281930\\2966457992\\2023.8\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
-:: downloaded/content/1281930/2966457992/2023.8
+tModUnpacker.exe "downloaded\\content\\1281930\\3645731835\\2025.11\\%TMODFILE%.tmod" "tmodFileExtracted\\%TMODFILE%\\"
+:: downloaded/content/1281930/3645731835/2025.11
 powershell -Command ^
   "Compress-Archive -Path 'tmodFileExtracted\%TMODFILE%\*' -DestinationPath 'tmodFileExtracted\%TMODFILE%\%TMODFILE%.zip' -Force"
 
